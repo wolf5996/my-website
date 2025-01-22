@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Badran Elshenawy</title>
-    <link>https://yourwebsite.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Badran Elshenawy</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Wed, 22 Jan 2025 10:51:58 +0000</lastBuildDate>
-    <atom:link href="https://yourwebsite.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;-about-me&#34;&gt;&#xA;  👋 About Me&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-about-me&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;I’m &lt;strong&gt;Badran Elshenawy&lt;/strong&gt;, a &lt;strong&gt;bioinformatician&lt;/strong&gt; passionate about&lt;br&gt;&#xA;&lt;strong&gt;high-performance computing, automation, and command-line workflows&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-what-i-do&#34;&gt;&#xA;  🚀 What I Do&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-what-i-do&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;My work revolves around:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🎨 &lt;strong&gt;Transcriptomic Analysis&lt;/strong&gt; (scRNA-seq, Spatial, Bulk)&lt;/li&gt;&#xA;&lt;li&gt;💻 &lt;strong&gt;Command-Line &amp;amp; HPC&lt;/strong&gt; for large-scale bioinformatics pipelines&lt;/li&gt;&#xA;&lt;li&gt;🛠 &lt;strong&gt;Git &amp;amp; Automation&lt;/strong&gt; to improve research reproducibility&lt;/li&gt;&#xA;&lt;li&gt;📊 &lt;strong&gt;R for Data Analysis&lt;/strong&gt; (Seurat, ggplot2, Bioconductor)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-where-i-write&#34;&gt;&#xA;  📝 Where I Write&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-where-i-write&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;I share insights about &lt;strong&gt;bioinformatics, Linux tools, and productivity hacks&lt;/strong&gt;.&lt;br&gt;&#xA;You can follow my work on:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Welcome to My Personal Blog</title>
-      <link>https://yourwebsite.com/posts/welcome-to-my-personal-blog/</link>
+      <link>http://localhost:1313/posts/welcome-to-my-personal-blog/</link>
       <pubDate>Wed, 22 Jan 2025 10:51:58 +0000</pubDate>
-      <guid>https://yourwebsite.com/posts/welcome-to-my-personal-blog/</guid>
+      <guid>http://localhost:1313/posts/welcome-to-my-personal-blog/</guid>
       <description>&lt;h1 id=&#34;-welcome-to-my-personal-blog&#34;&gt;&#xA;  🚀 Welcome to My Personal Blog&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-welcome-to-my-personal-blog&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;For a while now, I’ve been posting daily on &lt;strong&gt;LinkedIn&lt;/strong&gt;—sharing insights on &lt;strong&gt;bioinformatics, command-line tools, and productivity&lt;/strong&gt;. But I wanted a space that’s truly my own. So, I built this site.&lt;/p&gt;&#xA;&lt;p&gt;This blog will be a &lt;strong&gt;continuation of my LinkedIn posts&lt;/strong&gt;, but with more flexibility. I’ll use it to:&lt;br&gt;&#xA;✅ Share &lt;strong&gt;quick insights&lt;/strong&gt; and &lt;strong&gt;technical tips&lt;/strong&gt;.&lt;br&gt;&#xA;✅ Write about &lt;strong&gt;bioinformatics, data science, and scripting&lt;/strong&gt;.&lt;br&gt;&#xA;✅ Explore &lt;strong&gt;philosophy, productivity, and deep work&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
