@@ -1,0 +1,19 @@
+baseURL = "https://yourwebsite.com/"
+languageCode = "en-us"
+title = "Badran Elshenawy"
+theme = "Coder"
+
+[params]
+  author = "Badran Elshenawy"
+  description = "Bioinformatician | Data Science | Linux Enthusiast"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowToc = true
+
+[[params.socialIcons]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/badran-b-65414b113/"
+
+[[params.socialIcons]]
+  name = "GitHub"
+  url = "https://github.com/wolf5996"
