@@ -13,7 +13,7 @@ pagerSize = 6
 noClasses = false
 [markup.goldmark]
 [markup.goldmark.renderer]
-unsafe = true
+unsafe = true  # Allow raw HTML (important for Rmd rendering)
 
 [params]
   author = "Badran Elshenawy"
@@ -27,6 +27,8 @@ unsafe = true
   ShowToc = true
   colorScheme = "auto"  # Options: "auto", "dark", "light"
   hideColorSchemeToggle = false
+  highlight = true  # Enable syntax highlighting
+  rmd_files = ["Rmd"]  # Ensure `.Rmd` files are processed
 
 # 🛠 GitHub commit footer (optional, for version tracking)
 commit = "https://github.com/wolf5996/hugo-coder/tree/"
@@ -81,3 +83,5 @@ category = "categories"
 series = "series"
 tag = "tags"
 author = "authors"
+
+  
