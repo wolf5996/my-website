@@ -1,7 +1,7 @@
 ---
 title: "Essential CLI Tools You Should Know - Part 1: dust & lsd"
 author: "Badran Elshenawy"
-date: 2025-01-23T10:35:00Z
+date: 2024-12-17
 categories: ["CLI Tools", "Linux", "Productivity"]
 tags: ["CLI", "Linux", "SysAdmin", "DevOps", "Automation"]
 description: "A deep dive into two essential CLI tools, `dust` and `lsd`, that will enhance your workflow."

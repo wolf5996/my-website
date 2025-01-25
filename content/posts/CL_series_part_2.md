@@ -1,7 +1,7 @@
 ---
 title: "Essential CLI Tools You Should Know - Part 2: zoxide & ouch"
 author: "Badran Elshenawy"
-date: 2025-01-25
+date: 2024-12-18
 categories: ["CLI Tools", "Linux", "Productivity"]
 tags: ["CLI", "Linux", "SysAdmin", "DevOps", "Automation"]
 description: "A deep dive into two essential CLI tools, `zoxide` and `ouch`, that will enhance your workflow."

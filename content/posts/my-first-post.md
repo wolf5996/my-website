@@ -1,6 +1,6 @@
 ---
 draft: false
-date: 2025-01-22T10:51:58Z
+date: 2024-12-15
 title: "Welcome to My Personal Blog"
 description: "Introducing my new personal site, where I share insights on bioinformatics, command-line tools, and productivity."
 slug: "welcome-to-my-personal-blog"
