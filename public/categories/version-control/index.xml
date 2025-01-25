@@ -6,8 +6,15 @@
     <description>Recent content in Version Control on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 25 Jan 2025 17:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jan 2025 17:39:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/version-control/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Version Control Series - Part 2: Essential Git Commands You Should Know</title>
+      <link>http://localhost:1313/posts/git-basics-part2/</link>
+      <pubDate>Sat, 25 Jan 2025 17:39:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/git-basics-part2/</guid>
+      <description>Learn essential Git commands like &lt;code&gt;add&lt;/code&gt;, &lt;code&gt;commit&lt;/code&gt;, &lt;code&gt;push&lt;/code&gt;, and &lt;code&gt;pull&lt;/code&gt; to start mastering version control in bioinformatics.</description>
+    </item>
     <item>
       <title>Version Control Series - Part 1: Why Every Bioinformatician Needs Git</title>
       <link>http://localhost:1313/posts/git-version-control-part1/</link>
