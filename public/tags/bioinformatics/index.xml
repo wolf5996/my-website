@@ -6,8 +6,15 @@
     <description>Recent content in Bioinformatics on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jan 2025 17:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Version Control Series - Part 1: Why Every Bioinformatician Needs Git</title>
+      <link>http://localhost:1313/posts/git-version-control-part1/</link>
+      <pubDate>Sat, 25 Jan 2025 17:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/git-version-control-part1/</guid>
+      <description>Discover why Git is a game-changer for bioinformatics, providing version control, reproducibility, and seamless collaboration.</description>
+    </item>
     <item>
       <title>Welcome to My Personal Blog</title>
       <link>http://localhost:1313/posts/welcome-to-my-personal-blog/</link>

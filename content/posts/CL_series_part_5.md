@@ -1,7 +1,7 @@
 ---
 title: "Essential CLI Tools You Should Know - Part 5: bottom & bat"
 author: "Badran Elshenawy"
-date: 2025-01-25
+date: 2025-01-25T16:00:00Z
 categories:
   - "CLI Tools"
   - "Linux"
@@ -20,7 +20,7 @@ aliases:
   - "/posts/CL_series_part_5/"
 summary: "Explore `bottom`, a better `htop`, and `bat`, a modern `cat` replacement to improve your Linux workflow."
 featured: true
-rmd_hash: cb87185b584d2293
+rmd_hash: d264e5e2270ff87c
 
 ---
 
