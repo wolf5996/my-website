@@ -6,7 +6,7 @@
     <description>Recent content on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 25 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
@@ -18,21 +18,21 @@
     <item>
       <title>Essential CLI Tools You Should Know - Part 2: zoxide &amp; ouch</title>
       <link>http://localhost:1313/posts/cli-tools-zoxide-ouch/</link>
-      <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/cli-tools-zoxide-ouch/</guid>
       <description>Explore &lt;code&gt;zoxide&lt;/code&gt;, a better &lt;code&gt;cd&lt;/code&gt;, and &lt;code&gt;ouch&lt;/code&gt;, a modern &lt;code&gt;tar&lt;/code&gt; replacement to improve your Linux workflow.</description>
     </item>
     <item>
       <title>Essential CLI Tools You Should Know - Part 1: dust &amp; lsd</title>
       <link>http://localhost:1313/posts/cli-tools-dust-lsd/</link>
-      <pubDate>Thu, 23 Jan 2025 10:35:00 +0000</pubDate>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/cli-tools-dust-lsd/</guid>
       <description>Explore &lt;code&gt;dust&lt;/code&gt;, a better &lt;code&gt;du&lt;/code&gt;, and &lt;code&gt;lsd&lt;/code&gt;, a modern &lt;code&gt;ls&lt;/code&gt; replacement to improve your Linux workflow.</description>
     </item>
     <item>
       <title>Welcome to My Personal Blog</title>
       <link>http://localhost:1313/posts/welcome-to-my-personal-blog/</link>
-      <pubDate>Wed, 22 Jan 2025 10:51:58 +0000</pubDate>
+      <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/welcome-to-my-personal-blog/</guid>
       <description>&lt;h1 id=&#34;-welcome-to-my-personal-blog&#34;&gt;&#xA;  🚀 Welcome to My Personal Blog&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#-welcome-to-my-personal-blog&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;For a while now, I’ve been posting daily on &lt;strong&gt;LinkedIn&lt;/strong&gt;—sharing insights on &lt;strong&gt;bioinformatics, command-line tools, and productivity&lt;/strong&gt;. But I wanted a space that’s truly my own. So, I built this site.&lt;/p&gt;&#xA;&lt;p&gt;This blog will be a &lt;strong&gt;continuation of my LinkedIn posts&lt;/strong&gt;, but with more flexibility. I’ll use it to:&lt;br&gt;&#xA;✅ Share &lt;strong&gt;quick insights&lt;/strong&gt; and &lt;strong&gt;technical tips&lt;/strong&gt;.&lt;br&gt;&#xA;✅ Write about &lt;strong&gt;bioinformatics, data science, and scripting&lt;/strong&gt;.&lt;br&gt;&#xA;✅ Explore &lt;strong&gt;philosophy, productivity, and deep work&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
