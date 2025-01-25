@@ -266,16 +266,15 @@
     <span class="sr-only">Link to heading</span>
   </a>
 </h4>
-<pre><code># Start system monitor
-btm  
-
-# Minimal UI with essential stats
-btm --basic  
-
-# View processes in hierarchical tree view
-btm --tree  
-</code></pre>
-<p>🔥 <strong>Why switch?</strong> <code>bottom</code> gives a <strong>better, more insightful view</strong> of system resources with <strong>less overhead</strong> than <code>htop</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Start system monitor</span>
+</span></span><span class="line"><span class="cl">btm  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Minimal UI with essential stats</span>
+</span></span><span class="line"><span class="cl">btm --basic  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># View processes in hierarchical tree view</span>
+</span></span><span class="line"><span class="cl">btm --tree  
+</span></span></code></pre></div><p>🔥 <strong>Why switch?</strong> <code>bottom</code> gives a <strong>better, more insightful view</strong> of system resources with <strong>less overhead</strong> than <code>htop</code>.</p>
 <hr>
 <h2 id="-bat----the-modern-cat-replacement">
   🌟 <code>bat</code> -- The Modern <code>cat</code> Replacement
@@ -326,19 +325,18 @@ btm --tree
     <span class="sr-only">Link to heading</span>
   </a>
 </h4>
-<pre><code># View file with syntax highlighting
-bat filename  
-
-# Disable extra formatting for raw output
-bat --style=plain filename  
-
-# Compare multiple files side by side
-bat file1 file2  
-
-# Use bat in pipelines
-cat file | bat  
-</code></pre>
-<p>🔥 <strong>Why switch?</strong> <code>bat</code> makes reading files <strong>visually appealing</strong> and <strong>more functional</strong> while keeping <code>cat</code>&rsquo;s simplicity.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># View file with syntax highlighting</span>
+</span></span><span class="line"><span class="cl">bat filename  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Disable extra formatting for raw output</span>
+</span></span><span class="line"><span class="cl">bat --style<span class="o">=</span>plain filename  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Compare multiple files side by side</span>
+</span></span><span class="line"><span class="cl">bat file1 file2  
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Use bat in pipelines</span>
+</span></span><span class="line"><span class="cl">cat file <span class="p">|</span> bat  
+</span></span></code></pre></div><p>🔥 <strong>Why switch?</strong> <code>bat</code> makes reading files <strong>visually appealing</strong> and <strong>more functional</strong> while keeping <code>cat</code>&rsquo;s simplicity.</p>
 <hr>
 <h2 id="-final-thoughts">
   ✅ Final Thoughts
@@ -357,12 +355,10 @@ cat file | bat
 </h3>
 <p>🔸 <strong>Use <code>btm --tree</code></strong> to quickly analyze resource-hungry processes<br>
 🔸 <strong>Set <code>bat</code> as your default pager</strong> by adding this to your shell config:</p>
-<pre><code>export PAGER=&quot;bat&quot;
-</code></pre>
-<p>🔸 <strong>Combine <code>fd</code> + <code>bat</code></strong> for rapid file searches:</p>
-<pre><code>fd &quot;pattern&quot; | bat --paging=never
-</code></pre>
-<p>🚀 <strong>These tools will supercharge your workflow!</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">PAGER</span><span class="o">=</span><span class="s2">&#34;bat&#34;</span>
+</span></span></code></pre></div><p>🔸 <strong>Combine <code>fd</code> + <code>bat</code></strong> for rapid file searches:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">fd <span class="s2">&#34;pattern&#34;</span> <span class="p">|</span> bat --paging<span class="o">=</span>never
+</span></span></code></pre></div><p>🚀 <strong>These tools will supercharge your workflow!</strong></p>
 
       </div>
 

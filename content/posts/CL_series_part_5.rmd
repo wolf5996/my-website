@@ -56,7 +56,7 @@ If you're still using `htop` for system monitoring, **you're missing out**. `bot
 
 #### 💡 Common Usage:
 
-```         
+```bash         
 # Start system monitor
 btm  
 
@@ -93,7 +93,7 @@ The default `cat` command works, but it **lacks modern usability features**. `ba
 
 #### 💡 Common Usage:
 
-```         
+```bash         
 # View file with syntax highlighting
 bat filename  
 
@@ -120,13 +120,13 @@ Both `bottom` and `bat` **replace outdated CLI tools with modern, feature-rich a
 🔸 **Use `btm --tree`** to quickly analyze resource-hungry processes  
 🔸 **Set `bat` as your default pager** by adding this to your shell config:
 
-```         
+```bash         
 export PAGER="bat"
 ```
 
 🔸 **Combine `fd` + `bat`** for rapid file searches:
 
-```         
+```bash    
 fd "pattern" | bat --paging=never
 ```
 

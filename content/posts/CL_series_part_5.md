@@ -20,7 +20,7 @@ aliases:
   - "/posts/CL_series_part_5/"
 summary: "Explore `bottom`, a better `htop`, and `bat`, a modern `cat` replacement to improve your Linux workflow."
 featured: true
-rmd_hash: ea8169414cbca5ef
+rmd_hash: cb87185b584d2293
 
 ---
 
@@ -58,14 +58,16 @@ If you're still using `htop` for system monitoring, **you're missing out**. `bot
 
 #### 💡 Common Usage:
 
-    # Start system monitor
-    btm  
+``` bash
+# Start system monitor
+btm  
 
-    # Minimal UI with essential stats
-    btm --basic  
+# Minimal UI with essential stats
+btm --basic  
 
-    # View processes in hierarchical tree view
-    btm --tree  
+# View processes in hierarchical tree view
+btm --tree  
+```
 
 🔥 **Why switch?** `bottom` gives a **better, more insightful view** of system resources with **less overhead** than `htop`.
 
@@ -93,17 +95,19 @@ The default `cat` command works, but it **lacks modern usability features**. `ba
 
 #### 💡 Common Usage:
 
-    # View file with syntax highlighting
-    bat filename  
+``` bash
+# View file with syntax highlighting
+bat filename  
 
-    # Disable extra formatting for raw output
-    bat --style=plain filename  
+# Disable extra formatting for raw output
+bat --style=plain filename  
 
-    # Compare multiple files side by side
-    bat file1 file2  
+# Compare multiple files side by side
+bat file1 file2  
 
-    # Use bat in pipelines
-    cat file | bat  
+# Use bat in pipelines
+cat file | bat  
+```
 
 🔥 **Why switch?** `bat` makes reading files **visually appealing** and **more functional** while keeping `cat`'s simplicity.
 
@@ -118,11 +122,15 @@ Both `bottom` and `bat` **replace outdated CLI tools with modern, feature-rich a
 🔸 **Use `btm --tree`** to quickly analyze resource-hungry processes  
 🔸 **Set `bat` as your default pager** by adding this to your shell config:
 
-    export PAGER="bat"
+``` bash
+export PAGER="bat"
+```
 
 🔸 **Combine `fd` + `bat`** for rapid file searches:
 
-    fd "pattern" | bat --paging=never
+``` bash
+fd "pattern" | bat --paging=never
+```
 
 🚀 **These tools will supercharge your workflow!**
 
