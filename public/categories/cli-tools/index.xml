@@ -6,8 +6,15 @@
     <description>Recent content in CLI Tools on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/cli-tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Essential CLI Tools You Should Know - Part 5: bottom &amp; bat</title>
+      <link>http://localhost:1313/posts/cli-tools-bottom-bat/</link>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cli-tools-bottom-bat/</guid>
+      <description>Explore &lt;code&gt;bottom&lt;/code&gt;, a better &lt;code&gt;htop&lt;/code&gt;, and &lt;code&gt;bat&lt;/code&gt;, a modern &lt;code&gt;cat&lt;/code&gt; replacement to improve your Linux workflow.</description>
+    </item>
     <item>
       <title>Essential CLI Tools You Should Know - Part 2: zoxide &amp; ouch</title>
       <link>http://localhost:1313/posts/cli-tools-zoxide-ouch/</link>

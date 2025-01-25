@@ -1,7 +1,7 @@
 ---
 title: "Essential CLI Tools You Should Know - Part 5: bottom & bat"
 author: "Badran Elshenawy"
-date: 2025-01-26
+date: 2025-01-25
 categories:
   - "CLI Tools"
   - "Linux"

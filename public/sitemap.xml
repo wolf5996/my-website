@@ -4,43 +4,46 @@
   <url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-01-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/automation/</loc>
-    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/cli/</loc>
-    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/cli-tools/</loc>
-    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/devops/</loc>
-    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cli-tools-zoxide-ouch/</loc>
-    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/posts/cli-tools-bottom-bat/</loc>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/linux/</loc>
-    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/linux/</loc>
-    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/productivity/</loc>
-    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/sysadmin/</loc>
-    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/cli-tools-zoxide-ouch/</loc>
     <lastmod>2024-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/cli-tools-dust-lsd/</loc>
