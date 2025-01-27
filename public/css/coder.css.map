@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "coder.css",
-	"sourceRoot": "/Users/badranelshenawy/Library/CloudStorage/OneDrive-Nexus365/University of Oxford/postdoc/ECA/personal_site/my-website",
+	"sourceRoot": "/Users/badranelshenawy/Library/CloudStorage/OneDrive-Nexus365/University of Oxford/postdoc/ECA/personal-site/my-website",
 	"sources": [
 		"themes/Coder/assets/scss/coder.scss",
 		"themes/Coder/assets/scss/css/normalize.css",

@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 25 Jan 2025 17:39:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jan 2025 19:26:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Version Control Series – Part 3: Branching &amp; Merging in Git</title>
+      <link>http://localhost:1313/posts/git-branching-merging/</link>
+      <pubDate>Mon, 27 Jan 2025 19:26:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/git-branching-merging/</guid>
+      <description>Understand Git branching and merging to work confidently without disrupting your main codebase.</description>
+    </item>
     <item>
       <title>Version Control Series - Part 2: Essential Git Commands You Should Know</title>
       <link>http://localhost:1313/posts/git-basics-part2/</link>
