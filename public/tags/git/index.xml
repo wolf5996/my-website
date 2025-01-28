@@ -6,8 +6,15 @@
     <description>Recent content in Git on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Jan 2025 19:26:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2025 06:30:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Version Control Series – Part 4: GitHub &amp; Collaboration</title>
+      <link>http://localhost:1313/posts/github-collaboration/</link>
+      <pubDate>Tue, 28 Jan 2025 06:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/github-collaboration/</guid>
+      <description>Learn how to collaborate effectively on GitHub using pull requests, forks, and branching workflows.</description>
+    </item>
     <item>
       <title>Version Control Series – Part 3: Branching &amp; Merging in Git</title>
       <link>http://localhost:1313/posts/git-branching-merging/</link>
