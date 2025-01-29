@@ -6,8 +6,36 @@
     <description>Recent content in Categories on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Jan 2025 06:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jan 2025 04:30:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quarto</title>
+      <link>http://localhost:1313/categories/quarto/</link>
+      <pubDate>Wed, 29 Jan 2025 04:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/quarto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>R Markdown</title>
+      <link>http://localhost:1313/categories/r-markdown/</link>
+      <pubDate>Wed, 29 Jan 2025 04:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/r-markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Version Control</title>
+      <link>http://localhost:1313/categories/version-control/</link>
+      <pubDate>Wed, 29 Jan 2025 04:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/version-control/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VS Code</title>
+      <link>http://localhost:1313/categories/vs-code/</link>
+      <pubDate>Wed, 29 Jan 2025 04:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/vs-code/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Bioinformatics</title>
       <link>http://localhost:1313/categories/bioinformatics/</link>
@@ -20,13 +48,6 @@
       <link>http://localhost:1313/categories/git/</link>
       <pubDate>Tue, 28 Jan 2025 06:30:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/git/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Version Control</title>
-      <link>http://localhost:1313/categories/version-control/</link>
-      <pubDate>Tue, 28 Jan 2025 06:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/version-control/</guid>
       <description></description>
     </item>
     <item>

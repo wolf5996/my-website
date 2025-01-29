@@ -5,15 +5,54 @@
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-01-28T06:30:00+00:00</lastmod>
+    <lastmod>2025-01-29T04:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-01-29T04:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/data-science/</loc>
+    <lastmod>2025-01-29T04:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/quarto-vscode/</loc>
+    <lastmod>2025-01-29T04:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/open-science/</loc>
+    <lastmod>2025-01-29T04:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-01-29T04:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/quarto/</loc>
+    <lastmod>2025-01-29T04:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/quarto/</loc>
+    <lastmod>2025-01-29T04:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/r-markdown/</loc>
+    <lastmod>2025-01-29T04:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/r-markdown/</loc>
+    <lastmod>2025-01-29T04:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/reproducibility/</loc>
+    <lastmod>2025-01-29T04:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-01-29T04:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/version-control/</loc>
+    <lastmod>2025-01-29T04:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/vs-code/</loc>
+    <lastmod>2025-01-29T04:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/vs-code/</loc>
+    <lastmod>2025-01-29T04:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/bioinformatics/</loc>
     <lastmod>2025-01-28T06:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/bioinformatics/</loc>
-    <lastmod>2025-01-28T06:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-01-28T06:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/collaboration/</loc>
@@ -25,19 +64,7 @@
     <loc>http://localhost:1313/categories/git/</loc>
     <lastmod>2025-01-28T06:30:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-01-28T06:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/reproducibility/</loc>
-    <lastmod>2025-01-28T06:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-01-28T06:30:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/version-control/</loc>
-    <lastmod>2025-01-28T06:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/version-control/</loc>
     <lastmod>2025-01-28T06:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/github-collaboration/</loc>
