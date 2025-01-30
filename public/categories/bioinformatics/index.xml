@@ -6,8 +6,15 @@
     <description>Recent content in Bioinformatics on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Jan 2025 06:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jan 2025 12:20:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Version Control Series – Part 5: Undoing Mistakes in Git</title>
+      <link>http://localhost:1313/posts/git-undo-mistakes/</link>
+      <pubDate>Thu, 30 Jan 2025 12:20:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/git-undo-mistakes/</guid>
+      <description>Learn how to undo mistakes in Git using reset, revert, and other rollback techniques.</description>
+    </item>
     <item>
       <title>Version Control Series – Part 4: GitHub &amp; Collaboration</title>
       <link>http://localhost:1313/posts/github-collaboration/</link>
