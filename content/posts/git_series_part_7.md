@@ -20,11 +20,11 @@ aliases:
   - "/posts/git_diff_log_tracking/"
 summary: "Master git diff and git log to track changes efficiently and enhance your version control workflow."
 featured: true
-rmd_hash: 54f457148dfab37f
+rmd_hash: 1f02a666effbb1b1
 
 ---
 
-# 🪠 \# 🪠 Version Control Series -- Post 7: Git Diff & Log -- Tracking Changes Like a Pro
+# 🪠 Version Control Series -- Post 7: Git Diff & Log -- Tracking Changes Like a Pro
 
 ## 🔍 Why Tracking Changes Matters
 

@@ -9,6 +9,13 @@
     <lastBuildDate>Tue, 04 Feb 2025 12:30:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Version Control Series – Capstone: Mastering Git for Reproducible Research</title>
+      <link>http://localhost:1313/posts/git-capstone-mastering/</link>
+      <pubDate>Tue, 04 Feb 2025 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/git-capstone-mastering/</guid>
+      <description>Consolidate your Git knowledge with this capstone guide covering essential Git workflows, best practices, and key takeaways.</description>
+    </item>
+    <item>
       <title>Version Control Series – Part 7: Git Diff &amp; Log – Tracking Changes Like a Pro</title>
       <link>http://localhost:1313/posts/git-diff-log-tracking/</link>
       <pubDate>Tue, 04 Feb 2025 12:30:00 +0000</pubDate>

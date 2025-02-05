@@ -22,7 +22,7 @@ summary: "Master git diff and git log to track changes efficiently and enhance y
 featured: true
 ---
 
-# 🪠 \# 🪠 Version Control Series – Post 7: Git Diff & Log – Tracking Changes Like a Pro
+# 🪠 Version Control Series – Post 7: Git Diff & Log – Tracking Changes Like a Pro
 
 ## 🔍 Why Tracking Changes Matters
 
