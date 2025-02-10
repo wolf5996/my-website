@@ -5,33 +5,57 @@
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-02-04T12:30:00+00:00</lastmod>
+    <lastmod>2025-02-10T17:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/bioinformatics/</loc>
-    <lastmod>2025-02-04T12:30:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/bioconductor/</loc>
+    <lastmod>2025-02-10T17:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/bioinformatics/</loc>
-    <lastmod>2025-02-04T12:30:00+00:00</lastmod>
+    <lastmod>2025-02-10T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/bioinformatics-foundations-tidyverse/</loc>
+    <lastmod>2025-02-10T17:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-02-10T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/command-line-tools/</loc>
+    <lastmod>2025-02-10T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/conda/</loc>
+    <lastmod>2025-02-10T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/data-science/</loc>
+    <lastmod>2025-02-10T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/git/</loc>
+    <lastmod>2025-02-10T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-02-10T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/r/</loc>
+    <lastmod>2025-02-10T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/reproducibility/</loc>
+    <lastmod>2025-02-10T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-02-10T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tidyverse/</loc>
+    <lastmod>2025-02-10T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/bioinformatics/</loc>
     <lastmod>2025-02-04T12:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/collaboration/</loc>
     <lastmod>2025-02-04T12:30:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/git/</loc>
-    <lastmod>2025-02-04T12:30:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/git/</loc>
     <lastmod>2025-02-04T12:30:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-02-04T12:30:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/reproducibility/</loc>
-    <lastmod>2025-02-04T12:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-02-04T12:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/version-control/</loc>
