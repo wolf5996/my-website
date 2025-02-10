@@ -1,7 +1,7 @@
 ---
 title: "Version Control Series – Capstone: Mastering Git for Reproducible Research"
 author: "Badran Elshenawy"
-date: 2025-02-04T12:30:00Z
+date: 2025-02-05T12:30:00Z
 categories:
   - "Version Control"
   - "Git"

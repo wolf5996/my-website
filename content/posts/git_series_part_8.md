@@ -1,7 +1,7 @@
 ---
 title: "Version Control Series – Capstone: Mastering Git for Reproducible Research"
 author: "Badran Elshenawy"
-date: 2025-02-04T12:30:00Z
+date: 2025-02-05T12:30:00Z
 categories:
   - "Version Control"
   - "Git"
@@ -20,7 +20,7 @@ aliases:
   - "/posts/git_capstone_mastering/"
 summary: "Consolidate your Git knowledge with this capstone guide covering essential Git workflows, best practices, and key takeaways."
 featured: true
-rmd_hash: 8609d5f3db39bc70
+rmd_hash: 0f39bdb6127e5526
 
 ---
 
