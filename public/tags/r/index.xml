@@ -6,8 +6,15 @@
     <description>Recent content in R on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Feb 2025 17:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Feb 2025 08:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tidyverse Series – Post 1: Why the Tidyverse is a Game-Changer for R</title>
+      <link>http://localhost:1313/posts/tidyverse-intro/</link>
+      <pubDate>Tue, 11 Feb 2025 08:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tidyverse-intro/</guid>
+      <description>Discover why the Tidyverse is a game-changer for data science in R, simplifying data wrangling, visualization, and reproducibility.</description>
+    </item>
     <item>
       <title>Building Strong Foundations: From Command-Line Tools to the Tidyverse Transition</title>
       <link>http://localhost:1313/posts/bioinformatics-foundations-tidyverse/</link>
