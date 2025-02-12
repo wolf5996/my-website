@@ -6,8 +6,15 @@
     <description>Recent content in Tidyverse on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Feb 2025 08:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Feb 2025 09:20:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/tidyverse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tidyverse Series – Post 2: Mastering Data Manipulation with dplyr</title>
+      <link>http://localhost:1313/posts/tidyverse-dplyr/</link>
+      <pubDate>Wed, 12 Feb 2025 09:20:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tidyverse-dplyr/</guid>
+      <description>Discover how dplyr makes data manipulation in R simple, readable, and efficient with five key verbs: select, filter, mutate, arrange, and summarize.</description>
+    </item>
     <item>
       <title>Tidyverse Series – Post 1: Why the Tidyverse is a Game-Changer for R</title>
       <link>http://localhost:1313/posts/tidyverse-intro/</link>
