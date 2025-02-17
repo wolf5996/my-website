@@ -6,8 +6,15 @@
     <description>Recent content in Bioinformatics on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Feb 2025 09:20:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Feb 2025 11:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tidyverse Series – Post 3: Reshaping &amp; Cleaning Data with tidyr</title>
+      <link>http://localhost:1313/posts/tidyverse-tidyr/</link>
+      <pubDate>Mon, 17 Feb 2025 11:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tidyverse-tidyr/</guid>
+      <description>Discover how tidyr makes data reshaping and cleaning in R simple, readable, and efficient with functions like pivot_longer, pivot_wider, separate, unite, and more.</description>
+    </item>
     <item>
       <title>Tidyverse Series – Post 2: Mastering Data Manipulation with dplyr</title>
       <link>http://localhost:1313/posts/tidyverse-dplyr/</link>
