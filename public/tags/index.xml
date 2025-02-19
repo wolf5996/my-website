@@ -6,34 +6,69 @@
     <description>Recent content in Tags on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Feb 2025 11:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Feb 2025 10:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bioconductor</title>
       <link>http://localhost:1313/tags/bioconductor/</link>
-      <pubDate>Mon, 17 Feb 2025 11:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Feb 2025 10:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/bioconductor/</guid>
       <description></description>
     </item>
     <item>
-      <title>Data Cleaning</title>
-      <link>http://localhost:1313/tags/data-cleaning/</link>
-      <pubDate>Mon, 17 Feb 2025 11:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/data-cleaning/</guid>
+      <title>Data Merging</title>
+      <link>http://localhost:1313/tags/data-merging/</link>
+      <pubDate>Wed, 19 Feb 2025 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/data-merging/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Wrangling</title>
       <link>http://localhost:1313/tags/data-wrangling/</link>
-      <pubDate>Mon, 17 Feb 2025 11:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Feb 2025 10:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/data-wrangling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dplyr</title>
+      <link>http://localhost:1313/tags/dplyr/</link>
+      <pubDate>Wed, 19 Feb 2025 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/dplyr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Joins</title>
+      <link>http://localhost:1313/tags/joins/</link>
+      <pubDate>Wed, 19 Feb 2025 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/joins/</guid>
       <description></description>
     </item>
     <item>
       <title>R</title>
       <link>http://localhost:1313/tags/r/</link>
-      <pubDate>Mon, 17 Feb 2025 11:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Feb 2025 10:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/r/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tidyverse</title>
+      <link>http://localhost:1313/tags/tidyverse/</link>
+      <pubDate>Wed, 19 Feb 2025 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tidyverse/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Cleaning</title>
+      <link>http://localhost:1313/tags/data-cleaning/</link>
+      <pubDate>Tue, 18 Feb 2025 07:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/data-cleaning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tidy Data</title>
+      <link>http://localhost:1313/tags/tidy-data/</link>
+      <pubDate>Tue, 18 Feb 2025 07:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tidy-data/</guid>
       <description></description>
     </item>
     <item>
@@ -44,24 +79,10 @@
       <description></description>
     </item>
     <item>
-      <title>Tidyverse</title>
-      <link>http://localhost:1313/tags/tidyverse/</link>
-      <pubDate>Mon, 17 Feb 2025 11:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tidyverse/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Data Manipulation</title>
       <link>http://localhost:1313/tags/data-manipulation/</link>
       <pubDate>Wed, 12 Feb 2025 09:20:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/data-manipulation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dplyr</title>
-      <link>http://localhost:1313/tags/dplyr/</link>
-      <pubDate>Wed, 12 Feb 2025 09:20:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/dplyr/</guid>
       <description></description>
     </item>
     <item>
