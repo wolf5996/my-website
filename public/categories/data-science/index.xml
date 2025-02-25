@@ -6,8 +6,15 @@
     <description>Recent content in Data Science on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Feb 2025 10:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Feb 2025 12:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tidyverse Series – Post 6: Handling Categorical Data with forcats</title>
+      <link>http://localhost:1313/posts/tidyverse-forcats/</link>
+      <pubDate>Tue, 25 Feb 2025 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tidyverse-forcats/</guid>
+      <description>Master categorical data manipulation in R with forcats. Learn to reorder, lump, recode, and handle missing factor levels efficiently with real-world examples.</description>
+    </item>
     <item>
       <title>Tidyverse Series – Post 5: Data Joins &amp; Merging with dplyr</title>
       <link>http://localhost:1313/posts/tidyverse-dplyr-joins/</link>
