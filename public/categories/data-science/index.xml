@@ -6,8 +6,15 @@
     <description>Recent content in Data Science on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Feb 2025 10:50:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Feb 2025 16:30:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tidyverse Series – Post 8: Handling Dates &amp; Times with lubridate</title>
+      <link>http://localhost:1313/posts/tidyverse-lubridate/</link>
+      <pubDate>Fri, 28 Feb 2025 16:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tidyverse-lubridate/</guid>
+      <description>Master date and time manipulation in R with lubridate. Learn how to efficiently parse, extract, and compute time-based calculations in the Tidyverse.</description>
+    </item>
     <item>
       <title>Tidyverse Series – Post 7: Importing &amp; Handling Data Efficiently with readr</title>
       <link>http://localhost:1313/posts/tidyverse-readr/</link>
