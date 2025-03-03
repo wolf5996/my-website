@@ -6,8 +6,50 @@
     <description>Recent content in Tags on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Feb 2025 16:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Mar 2025 12:30:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Manipulation</title>
+      <link>http://localhost:1313/tags/data-manipulation/</link>
+      <pubDate>Mon, 03 Mar 2025 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/data-manipulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Functional Programming</title>
+      <link>http://localhost:1313/tags/functional-programming/</link>
+      <pubDate>Mon, 03 Mar 2025 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/functional-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Iteration</title>
+      <link>http://localhost:1313/tags/iteration/</link>
+      <pubDate>Mon, 03 Mar 2025 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/iteration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Purrr</title>
+      <link>http://localhost:1313/tags/purrr/</link>
+      <pubDate>Mon, 03 Mar 2025 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/purrr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>R</title>
+      <link>http://localhost:1313/tags/r/</link>
+      <pubDate>Mon, 03 Mar 2025 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/r/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tidyverse</title>
+      <link>http://localhost:1313/tags/tidyverse/</link>
+      <pubDate>Mon, 03 Mar 2025 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tidyverse/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Bioconductor</title>
       <link>http://localhost:1313/tags/bioconductor/</link>
@@ -34,20 +76,6 @@
       <link>http://localhost:1313/tags/lubridate/</link>
       <pubDate>Fri, 28 Feb 2025 16:30:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/lubridate/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>R</title>
-      <link>http://localhost:1313/tags/r/</link>
-      <pubDate>Fri, 28 Feb 2025 16:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/r/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tidyverse</title>
-      <link>http://localhost:1313/tags/tidyverse/</link>
-      <pubDate>Fri, 28 Feb 2025 16:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tidyverse/</guid>
       <description></description>
     </item>
     <item>
@@ -90,13 +118,6 @@
       <link>http://localhost:1313/tags/categorical-data/</link>
       <pubDate>Tue, 25 Feb 2025 12:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/categorical-data/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Manipulation</title>
-      <link>http://localhost:1313/tags/data-manipulation/</link>
-      <pubDate>Tue, 25 Feb 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/data-manipulation/</guid>
       <description></description>
     </item>
     <item>
