@@ -6,8 +6,15 @@
     <description>Recent content in Bioinformatics on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Mar 2025 12:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Mar 2025 07:10:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tidyverse Series – Post 10: String Manipulation Made Easy with stringr</title>
+      <link>http://localhost:1313/posts/tidyverse-stringr/</link>
+      <pubDate>Tue, 04 Mar 2025 07:10:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tidyverse-stringr/</guid>
+      <description>Master text processing in R with stringr. Learn efficient ways to detect, extract, replace, and manipulate text for data analysis.</description>
+    </item>
     <item>
       <title>Tidyverse Series – Post 9: Functional Programming in R with purrr</title>
       <link>http://localhost:1313/posts/tidyverse-purrr/</link>
