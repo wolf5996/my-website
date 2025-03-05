@@ -6,8 +6,15 @@
     <description>Recent content in R on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Mar 2025 07:10:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Mar 2025 09:10:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tidyverse Series – Post 11: Working with Databases in the Tidyverse using dbplyr</title>
+      <link>http://localhost:1313/posts/tidyverse-dbplyr/</link>
+      <pubDate>Wed, 05 Mar 2025 09:10:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tidyverse-dbplyr/</guid>
+      <description>Master database workflows in R with dbplyr. Learn to query, manipulate, and optimize large datasets in databases using Tidyverse syntax.</description>
+    </item>
     <item>
       <title>Tidyverse Series – Post 10: String Manipulation Made Easy with stringr</title>
       <link>http://localhost:1313/posts/tidyverse-stringr/</link>

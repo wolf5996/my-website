@@ -5,31 +5,52 @@
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-03-04T07:10:00+00:00</lastmod>
+    <lastmod>2025-03-05T09:10:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/bioconductor/</loc>
-    <lastmod>2025-03-04T07:10:00+00:00</lastmod>
+    <lastmod>2025-03-05T09:10:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/bioinformatics/</loc>
-    <lastmod>2025-03-04T07:10:00+00:00</lastmod>
+    <lastmod>2025-03-05T09:10:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-03-04T07:10:00+00:00</lastmod>
+    <lastmod>2025-03-05T09:10:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/data-science/</loc>
-    <lastmod>2025-03-04T07:10:00+00:00</lastmod>
+    <lastmod>2025-03-05T09:10:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/data-wrangling/</loc>
-    <lastmod>2025-03-04T07:10:00+00:00</lastmod>
+    <lastmod>2025-03-05T09:10:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/database-management/</loc>
+    <lastmod>2025-03-05T09:10:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/dbplyr/</loc>
+    <lastmod>2025-03-05T09:10:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-03-04T07:10:00+00:00</lastmod>
+    <lastmod>2025-03-05T09:10:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/r/</loc>
-    <lastmod>2025-03-04T07:10:00+00:00</lastmod>
+    <lastmod>2025-03-05T09:10:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/r/</loc>
-    <lastmod>2025-03-04T07:10:00+00:00</lastmod>
+    <lastmod>2025-03-05T09:10:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sql/</loc>
+    <lastmod>2025-03-05T09:10:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-03-05T09:10:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tidyverse/</loc>
+    <lastmod>2025-03-05T09:10:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/tidyverse/</loc>
+    <lastmod>2025-03-05T09:10:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/tidyverse-dbplyr/</loc>
+    <lastmod>2025-03-05T09:10:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/regular-expressions/</loc>
     <lastmod>2025-03-04T07:10:00+00:00</lastmod>
@@ -37,16 +58,7 @@
     <loc>http://localhost:1313/tags/stringr/</loc>
     <lastmod>2025-03-04T07:10:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-03-04T07:10:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/text-processing/</loc>
-    <lastmod>2025-03-04T07:10:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/tidyverse/</loc>
-    <lastmod>2025-03-04T07:10:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/tidyverse/</loc>
     <lastmod>2025-03-04T07:10:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/tidyverse-stringr/</loc>
