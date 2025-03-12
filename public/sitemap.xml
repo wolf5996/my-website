@@ -4,10 +4,49 @@
   <url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/arrow/</loc>
-    <lastmod>2025-03-11T06:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-03-12T11:40:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/base-r-pipe/</loc>
+    <lastmod>2025-03-12T11:40:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-03-12T11:40:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/data-science/</loc>
+    <lastmod>2025-03-12T11:40:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/data-wrangling/</loc>
+    <lastmod>2025-03-12T11:40:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/efficient-coding/</loc>
+    <lastmod>2025-03-12T11:40:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/magrittr/</loc>
+    <lastmod>2025-03-12T11:40:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/piping/</loc>
+    <lastmod>2025-03-12T11:40:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-03-12T11:40:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/r/</loc>
+    <lastmod>2025-03-12T11:40:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-03-12T11:40:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tidyverse/</loc>
+    <lastmod>2025-03-12T11:40:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/tidyverse/</loc>
+    <lastmod>2025-03-12T11:40:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/tidyverse-piping/</loc>
+    <lastmod>2025-03-12T11:40:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/arrow/</loc>
     <lastmod>2025-03-11T06:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/big-data/</loc>
@@ -16,37 +55,13 @@
     <loc>http://localhost:1313/categories/big-data/</loc>
     <lastmod>2025-03-11T06:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-03-11T06:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/data-science/</loc>
-    <lastmod>2025-03-11T06:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/data-wrangling/</loc>
-    <lastmod>2025-03-11T06:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/efficient-computing/</loc>
     <lastmod>2025-03-11T06:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/parquet/</loc>
     <lastmod>2025-03-11T06:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-03-11T06:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/r/</loc>
-    <lastmod>2025-03-11T06:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/r/</loc>
-    <lastmod>2025-03-11T06:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-03-11T06:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/tidyverse/</loc>
-    <lastmod>2025-03-11T06:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/tidyverse/</loc>
     <lastmod>2025-03-11T06:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/tidyverse-arrow-parquet/</loc>
