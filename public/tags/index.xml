@@ -6,20 +6,62 @@
     <description>Recent content in Tags on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Mar 2025 11:40:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Mar 2025 16:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Base R Pipe</title>
-      <link>http://localhost:1313/tags/base-r-pipe/</link>
-      <pubDate>Wed, 12 Mar 2025 11:40:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/base-r-pipe/</guid>
+      <title>Data Visualization</title>
+      <link>http://localhost:1313/tags/data-visualization/</link>
+      <pubDate>Thu, 13 Mar 2025 16:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/data-visualization/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Wrangling</title>
       <link>http://localhost:1313/tags/data-wrangling/</link>
-      <pubDate>Wed, 12 Mar 2025 11:40:00 +0000</pubDate>
+      <pubDate>Thu, 13 Mar 2025 16:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/data-wrangling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dplyr</title>
+      <link>http://localhost:1313/tags/dplyr/</link>
+      <pubDate>Thu, 13 Mar 2025 16:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/dplyr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Efficient Workflows</title>
+      <link>http://localhost:1313/tags/efficient-workflows/</link>
+      <pubDate>Thu, 13 Mar 2025 16:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/efficient-workflows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ggplot2</title>
+      <link>http://localhost:1313/tags/ggplot2/</link>
+      <pubDate>Thu, 13 Mar 2025 16:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ggplot2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tidyr</title>
+      <link>http://localhost:1313/tags/tidyr/</link>
+      <pubDate>Thu, 13 Mar 2025 16:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tidyr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tidyverse</title>
+      <link>http://localhost:1313/tags/tidyverse/</link>
+      <pubDate>Thu, 13 Mar 2025 16:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tidyverse/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Base R Pipe</title>
+      <link>http://localhost:1313/tags/base-r-pipe/</link>
+      <pubDate>Wed, 12 Mar 2025 11:40:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/base-r-pipe/</guid>
       <description></description>
     </item>
     <item>
@@ -41,13 +83,6 @@
       <link>http://localhost:1313/tags/piping/</link>
       <pubDate>Wed, 12 Mar 2025 11:40:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/piping/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tidyverse</title>
-      <link>http://localhost:1313/tags/tidyverse/</link>
-      <pubDate>Wed, 12 Mar 2025 11:40:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tidyverse/</guid>
       <description></description>
     </item>
     <item>
@@ -233,13 +268,6 @@
       <description></description>
     </item>
     <item>
-      <title>Dplyr</title>
-      <link>http://localhost:1313/tags/dplyr/</link>
-      <pubDate>Wed, 19 Feb 2025 10:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/dplyr/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Joins</title>
       <link>http://localhost:1313/tags/joins/</link>
       <pubDate>Wed, 19 Feb 2025 10:00:00 +0000</pubDate>
@@ -258,20 +286,6 @@
       <link>http://localhost:1313/tags/tidy-data/</link>
       <pubDate>Tue, 18 Feb 2025 07:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/tidy-data/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tidyr</title>
-      <link>http://localhost:1313/tags/tidyr/</link>
-      <pubDate>Mon, 17 Feb 2025 11:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/tidyr/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ggplot2</title>
-      <link>http://localhost:1313/tags/ggplot2/</link>
-      <pubDate>Tue, 11 Feb 2025 08:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ggplot2/</guid>
       <description></description>
     </item>
     <item>
