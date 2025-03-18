@@ -6,8 +6,57 @@
     <description>Recent content in Tags on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Mar 2025 16:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Mar 2025 05:30:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Biostatistics</title>
+      <link>http://localhost:1313/tags/biostatistics/</link>
+      <pubDate>Tue, 18 Mar 2025 05:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/biostatistics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bulk RNA-Seq</title>
+      <link>http://localhost:1313/tags/bulk-rna-seq/</link>
+      <pubDate>Tue, 18 Mar 2025 05:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bulk-rna-seq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Computational Biology</title>
+      <link>http://localhost:1313/tags/computational-biology/</link>
+      <pubDate>Tue, 18 Mar 2025 05:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/computational-biology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DESeq2</title>
+      <link>http://localhost:1313/tags/deseq2/</link>
+      <pubDate>Tue, 18 Mar 2025 05:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/deseq2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Differential Expression</title>
+      <link>http://localhost:1313/tags/differential-expression/</link>
+      <pubDate>Tue, 18 Mar 2025 05:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/differential-expression/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gene Expression</title>
+      <link>http://localhost:1313/tags/gene-expression/</link>
+      <pubDate>Tue, 18 Mar 2025 05:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gene-expression/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Genomic Analysis</title>
+      <link>http://localhost:1313/tags/genomic-analysis/</link>
+      <pubDate>Tue, 18 Mar 2025 05:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/genomic-analysis/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Data Visualization</title>
       <link>http://localhost:1313/tags/data-visualization/</link>
