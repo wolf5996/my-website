@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data Science on Badran Elshenawy</title>
-    <link>http://localhost:1313/tags/data-science/</link>
-    <description>Recent content in Data Science on Badran Elshenawy</description>
+    <title>Quality Control on Badran Elshenawy</title>
+    <link>http://localhost:1313/tags/quality-control/</link>
+    <description>Recent content in Quality Control on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 19 Mar 2025 11:45:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/quality-control/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bulk RNA-Seq Series – Post 2: Understanding RNA-Seq Reads &amp; FASTQ Files</title>
       <link>http://localhost:1313/posts/bulk-rna-seq-fastq/</link>
       <pubDate>Wed, 19 Mar 2025 11:45:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/bulk-rna-seq-fastq/</guid>
       <description>Learn about RNA-Seq reads, the FASTQ format, quality scores, and preprocessing strategies for high-quality sequencing data analysis.</description>
-    </item>
-    <item>
-      <title>From R Markdown to Quarto: Why Visual Mode in VS Code is a Game Changer</title>
-      <link>http://localhost:1313/posts/quarto-vscode/</link>
-      <pubDate>Wed, 29 Jan 2025 04:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/quarto-vscode/</guid>
-      <description>Discover why Quarto and VS Code&amp;rsquo;s Visual Mode is a game-changer for reproducible research.</description>
     </item>
   </channel>
 </rss>
