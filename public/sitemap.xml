@@ -5,30 +5,57 @@
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-03-24T06:00:00+00:00</lastmod>
+    <lastmod>2025-03-25T05:20:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/bioinformatics/</loc>
-    <lastmod>2025-03-24T06:00:00+00:00</lastmod>
+    <lastmod>2025-03-25T05:20:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/bulk-rna-seq/</loc>
-    <lastmod>2025-03-24T06:00:00+00:00</lastmod>
+    <lastmod>2025-03-25T05:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/bulk-rna-seq-alignment/</loc>
+    <lastmod>2025-03-25T05:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-03-25T05:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/computational-biology/</loc>
+    <lastmod>2025-03-25T05:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/data-science/</loc>
+    <lastmod>2025-03-25T05:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/genomics/</loc>
+    <lastmod>2025-03-25T05:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hisat2/</loc>
+    <lastmod>2025-03-25T05:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/minimap2/</loc>
+    <lastmod>2025-03-25T05:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-03-25T05:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/read-alignment/</loc>
+    <lastmod>2025-03-25T05:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/rna-seq/</loc>
+    <lastmod>2025-03-25T05:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/star/</loc>
+    <lastmod>2025-03-25T05:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-03-25T05:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/transcriptomics/</loc>
+    <lastmod>2025-03-25T05:20:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/bulk-rna-seq-trimming/</loc>
     <lastmod>2025-03-24T06:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-03-24T06:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/computational-biology/</loc>
-    <lastmod>2025-03-24T06:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/cutadapt/</loc>
-    <lastmod>2025-03-24T06:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/genomics/</loc>
-    <lastmod>2025-03-24T06:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-03-24T06:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/preprocessing/</loc>
@@ -40,22 +67,10 @@
     <loc>http://localhost:1313/tags/read-trimming/</loc>
     <lastmod>2025-03-24T06:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/rna-seq/</loc>
-    <lastmod>2025-03-24T06:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-03-24T06:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/transcriptomics/</loc>
-    <lastmod>2025-03-24T06:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/trimmomatic/</loc>
     <lastmod>2025-03-24T06:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/bulk-rna-seq-quality-control/</loc>
-    <lastmod>2025-03-20T12:10:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/data-science/</loc>
     <lastmod>2025-03-20T12:10:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/fastq/</loc>
