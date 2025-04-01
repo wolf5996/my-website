@@ -1,7 +1,7 @@
 ---
 title: "Bulk RNA-Seq Series – Post 7: Understanding FASTQ vs. FASTA Files"
 author: "Badran Elshenawy"
-date: 2025-04-01T13:00:00Z
+date: 2025-04-01T12:00:00Z
 categories:
   - "Bioinformatics"
   - "Genomics"
@@ -23,7 +23,7 @@ aliases:
   - "/posts/bulk_rna_seq_fastq_vs_fasta/"
 summary: "Learn the key differences between FASTQ and FASTA files in RNA-Seq analysis, from raw reads to reference sequences. Understand their roles in quality control, alignment, and data preprocessing."
 featured: true
-rmd_hash: 3179cea20f8619cf
+rmd_hash: db3ae1462d0ca09d
 
 ---
 

@@ -6,20 +6,55 @@
     <description>Recent content in Tags on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Mar 2025 10:10:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Apr 2025 12:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bulk RNA-Seq</title>
       <link>http://localhost:1313/tags/bulk-rna-seq/</link>
-      <pubDate>Wed, 26 Mar 2025 10:10:00 +0000</pubDate>
+      <pubDate>Tue, 01 Apr 2025 12:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/bulk-rna-seq/</guid>
       <description></description>
     </item>
     <item>
       <title>Computational Biology</title>
       <link>http://localhost:1313/tags/computational-biology/</link>
-      <pubDate>Wed, 26 Mar 2025 10:10:00 +0000</pubDate>
+      <pubDate>Tue, 01 Apr 2025 12:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/computational-biology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Science</title>
+      <link>http://localhost:1313/tags/data-science/</link>
+      <pubDate>Tue, 01 Apr 2025 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FASTA</title>
+      <link>http://localhost:1313/tags/fasta/</link>
+      <pubDate>Tue, 01 Apr 2025 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/fasta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FASTQ</title>
+      <link>http://localhost:1313/tags/fastq/</link>
+      <pubDate>Tue, 01 Apr 2025 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/fastq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>File Formats</title>
+      <link>http://localhost:1313/tags/file-formats/</link>
+      <pubDate>Tue, 01 Apr 2025 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/file-formats/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sequencing Data</title>
+      <link>http://localhost:1313/tags/sequencing-data/</link>
+      <pubDate>Tue, 01 Apr 2025 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/sequencing-data/</guid>
       <description></description>
     </item>
     <item>
@@ -27,13 +62,6 @@
       <link>http://localhost:1313/tags/count-matrix/</link>
       <pubDate>Wed, 26 Mar 2025 10:10:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/count-matrix/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Science</title>
-      <link>http://localhost:1313/tags/data-science/</link>
-      <pubDate>Wed, 26 Mar 2025 10:10:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/data-science/</guid>
       <description></description>
     </item>
     <item>
@@ -118,13 +146,6 @@
       <link>http://localhost:1313/tags/trimmomatic/</link>
       <pubDate>Mon, 24 Mar 2025 06:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/trimmomatic/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>FASTQ</title>
-      <link>http://localhost:1313/tags/fastq/</link>
-      <pubDate>Thu, 20 Mar 2025 12:10:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/fastq/</guid>
       <description></description>
     </item>
     <item>

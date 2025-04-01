@@ -1,7 +1,7 @@
 ---
 title: "Bulk RNA-Seq Series – Post 7: Understanding FASTQ vs. FASTA Files"
 author: "Badran Elshenawy"
-date: 2025-04-01T13:00:00Z
+date: 2025-04-01T12:00:00Z
 categories:
   - "Bioinformatics"
   - "Genomics"
