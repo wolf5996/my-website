@@ -4,52 +4,67 @@
   <url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/automation/</loc>
-    <lastmod>2025-04-07T15:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/annotation/</loc>
+    <lastmod>2025-04-08T09:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-04-07T15:00:00+00:00</lastmod>
+    <lastmod>2025-04-08T09:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/bioinformatics/</loc>
-    <lastmod>2025-04-07T15:00:00+00:00</lastmod>
+    <lastmod>2025-04-08T09:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/bulk-rna-seq/</loc>
+    <lastmod>2025-04-08T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/bulk-rna-seq-gtf-gff/</loc>
+    <lastmod>2025-04-08T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-04-08T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/computational-biology/</loc>
+    <lastmod>2025-04-08T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/data-science/</loc>
+    <lastmod>2025-04-08T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/genome-features/</loc>
+    <lastmod>2025-04-08T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/genomics/</loc>
+    <lastmod>2025-04-08T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/gff/</loc>
+    <lastmod>2025-04-08T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/gtf/</loc>
+    <lastmod>2025-04-08T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-04-08T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/rna-seq/</loc>
+    <lastmod>2025-04-08T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-04-08T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/transcriptomics/</loc>
+    <lastmod>2025-04-08T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/automation/</loc>
     <lastmod>2025-04-07T15:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/bulk-rna-seq-snakemake/</loc>
     <lastmod>2025-04-07T15:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-04-07T15:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/computational-biology/</loc>
-    <lastmod>2025-04-07T15:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/data-science/</loc>
-    <lastmod>2025-04-07T15:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/genomics/</loc>
-    <lastmod>2025-04-07T15:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/ngs/</loc>
-    <lastmod>2025-04-07T15:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-04-07T15:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/reproducibility/</loc>
     <lastmod>2025-04-07T15:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/rna-seq/</loc>
-    <lastmod>2025-04-07T15:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/snakemake/</loc>
-    <lastmod>2025-04-07T15:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-04-07T15:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/transcriptomics/</loc>
     <lastmod>2025-04-07T15:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/workflow/</loc>

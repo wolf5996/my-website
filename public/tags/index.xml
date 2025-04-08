@@ -6,34 +6,62 @@
     <description>Recent content in Tags on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 07 Apr 2025 15:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Apr 2025 09:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Automation</title>
-      <link>http://localhost:1313/tags/automation/</link>
-      <pubDate>Mon, 07 Apr 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/automation/</guid>
+      <title>Annotation</title>
+      <link>http://localhost:1313/tags/annotation/</link>
+      <pubDate>Tue, 08 Apr 2025 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/annotation/</guid>
       <description></description>
     </item>
     <item>
       <title>Bulk RNA-Seq</title>
       <link>http://localhost:1313/tags/bulk-rna-seq/</link>
-      <pubDate>Mon, 07 Apr 2025 15:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 Apr 2025 09:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/bulk-rna-seq/</guid>
       <description></description>
     </item>
     <item>
       <title>Computational Biology</title>
       <link>http://localhost:1313/tags/computational-biology/</link>
-      <pubDate>Mon, 07 Apr 2025 15:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 Apr 2025 09:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/computational-biology/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Science</title>
       <link>http://localhost:1313/tags/data-science/</link>
-      <pubDate>Mon, 07 Apr 2025 15:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 Apr 2025 09:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Genome Features</title>
+      <link>http://localhost:1313/tags/genome-features/</link>
+      <pubDate>Tue, 08 Apr 2025 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/genome-features/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GFF</title>
+      <link>http://localhost:1313/tags/gff/</link>
+      <pubDate>Tue, 08 Apr 2025 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gff/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GTF</title>
+      <link>http://localhost:1313/tags/gtf/</link>
+      <pubDate>Tue, 08 Apr 2025 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gtf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automation</title>
+      <link>http://localhost:1313/tags/automation/</link>
+      <pubDate>Mon, 07 Apr 2025 15:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/automation/</guid>
       <description></description>
     </item>
     <item>

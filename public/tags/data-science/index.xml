@@ -6,8 +6,15 @@
     <description>Recent content in Data Science on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 07 Apr 2025 15:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Apr 2025 09:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bulk RNA-Seq Series – Post 9: Understanding GTF &amp; GFF Files for Feature Annotation</title>
+      <link>http://localhost:1313/posts/bulk-rna-seq-gtf-gff/</link>
+      <pubDate>Tue, 08 Apr 2025 09:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/bulk-rna-seq-gtf-gff/</guid>
+      <description>Understand how GTF and GFF files guide RNA-Seq read interpretation and enable accurate feature quantification. Discover practical use cases, including ERV annotation.</description>
+    </item>
     <item>
       <title>Bulk RNA-Seq Series – Post 8: Automating Pipelines with Snakemake</title>
       <link>http://localhost:1313/posts/bulk-rna-seq-snakemake/</link>
