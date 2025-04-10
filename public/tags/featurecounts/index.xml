@@ -6,8 +6,15 @@
     <description>Recent content in FeatureCounts on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Mar 2025 10:10:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Apr 2025 12:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/featurecounts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bulk RNA-Seq Series – Post 10: Capstone &amp; Final Recap</title>
+      <link>http://localhost:1313/posts/bulk-rna-seq-capstone/</link>
+      <pubDate>Thu, 10 Apr 2025 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/bulk-rna-seq-capstone/</guid>
+      <description>Master the RNA-Seq pipeline with this capstone recap. Includes practical examples, file structure tips, and command-line snippets to help you implement each step efficiently.</description>
+    </item>
     <item>
       <title>Bulk RNA-Seq Series – Post 6: From BAM to Count Matrices with featureCounts &amp; HTSeq</title>
       <link>http://localhost:1313/posts/bulk-rna-seq-count-matrix/</link>
