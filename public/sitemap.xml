@@ -5,10 +5,52 @@
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-04-10T12:00:00+00:00</lastmod>
+    <lastmod>2025-04-19T17:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/bioconductor/</loc>
+    <lastmod>2025-04-19T17:20:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/bioinformatics/</loc>
-    <lastmod>2025-04-10T12:00:00+00:00</lastmod>
+    <lastmod>2025-04-19T17:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-04-19T17:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/computational-biology/</loc>
+    <lastmod>2025-04-19T17:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/data-structures/</loc>
+    <lastmod>2025-04-19T17:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/efficiency/</loc>
+    <lastmod>2025-04-19T17:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/genomic-rle-vectors/</loc>
+    <lastmod>2025-04-19T17:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/genomic-data/</loc>
+    <lastmod>2025-04-19T17:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/genomics/</loc>
+    <lastmod>2025-04-19T17:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/iranges/</loc>
+    <lastmod>2025-04-19T17:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-04-19T17:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/r/</loc>
+    <lastmod>2025-04-19T17:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rle/</loc>
+    <lastmod>2025-04-19T17:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-04-19T17:20:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/transcriptomics/</loc>
+    <lastmod>2025-04-19T17:20:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/bulk-rna-seq/</loc>
     <lastmod>2025-04-10T12:00:00+00:00</lastmod>
@@ -16,19 +58,10 @@
     <loc>http://localhost:1313/posts/bulk-rna-seq-capstone/</loc>
     <lastmod>2025-04-10T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-04-10T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/computational-biology/</loc>
-    <lastmod>2025-04-10T12:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/fastq/</loc>
     <lastmod>2025-04-10T12:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/featurecounts/</loc>
-    <lastmod>2025-04-10T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/genomics/</loc>
     <lastmod>2025-04-10T12:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/gtf/</loc>
@@ -40,9 +73,6 @@
     <loc>http://localhost:1313/tags/pipeline/</loc>
     <lastmod>2025-04-10T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-04-10T12:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/reproducibility/</loc>
     <lastmod>2025-04-10T12:00:00+00:00</lastmod>
   </url><url>
@@ -50,9 +80,6 @@
     <lastmod>2025-04-10T12:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/snakemake/</loc>
-    <lastmod>2025-04-10T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-04-10T12:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/transcriptomics/</loc>
@@ -193,9 +220,6 @@
     <loc>http://localhost:1313/tags/ggplot2/</loc>
     <lastmod>2025-03-13T16:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/r/</loc>
-    <lastmod>2025-03-13T16:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/tidyr/</loc>
     <lastmod>2025-03-13T16:00:00+00:00</lastmod>
   </url><url>
@@ -243,9 +267,6 @@
   </url><url>
     <loc>http://localhost:1313/posts/tidyverse-arrow-parquet/</loc>
     <lastmod>2025-03-11T06:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/bioconductor/</loc>
-    <lastmod>2025-03-05T09:10:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/database-management/</loc>
     <lastmod>2025-03-05T09:10:00+00:00</lastmod>

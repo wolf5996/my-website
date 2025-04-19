@@ -6,8 +6,15 @@
     <description>Recent content in Bioinformatics on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Apr 2025 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Apr 2025 17:20:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Foundations of Genomic Data – Post 2: Rle Vectors</title>
+      <link>http://localhost:1313/posts/genomic-rle-vectors/</link>
+      <pubDate>Sat, 19 Apr 2025 17:20:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/genomic-rle-vectors/</guid>
+      <description>Master the Rle class in R and understand how run-length encoding saves memory in genome-scale data analysis. Learn with examples and real use cases in Bioconductor.</description>
+    </item>
     <item>
       <title>Bulk RNA-Seq Series – Post 10: Capstone &amp; Final Recap</title>
       <link>http://localhost:1313/posts/bulk-rna-seq-capstone/</link>
