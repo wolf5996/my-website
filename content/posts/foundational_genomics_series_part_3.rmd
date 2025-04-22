@@ -1,28 +1,27 @@
 ---
-title: "Foundations of Genomic Data – Post 3: S4 Objects"
+title: "Foundations of Genomic Data – Post 4: IRanges"
 author: "Badran Elshenawy"
-date: 2025-04-21T17:00:00Z
+date: 2025-04-22T09:40:00Z
 categories:
   - "Bioinformatics"
   - "R"
   - "Genomics"
   - "Data Structures"
 tags:
-  - "S4"
   - "IRanges"
-  - "GRanges"
-  - "SummarizedExperiment"
-  - "Seurat"
+  - "Genomic Ranges"
   - "Bioconductor"
-  - "Transcriptomics"
+  - "Rle"
+  - "Genomic Data"
   - "Computational Biology"
-description: "Dive into the S4 object system in R — the formal infrastructure behind Bioconductor, Seurat, and structured genomic data analysis. Learn how S4 slots, inheritance, and multiple dispatch power reproducible workflows."
-slug: "genomic-s4-objects"
+  - "Transcriptomics"
+description: "Explore the IRanges class in R — the core data structure for interval-based operations in Bioconductor. Learn how to create, query, and manipulate genomic ranges efficiently."
+slug: "genomic-iranges"
 draft: false
 output: hugodown::md_document
 aliases:
-  - "/posts/genomic_s4_objects/"
-summary: "Master the S4 object system in R and its critical role in Bioconductor and Seurat. Learn how structure, type safety, and modularity enable scalable genomic analysis."
+  - "/posts/genomic_iranges/"
+summary: "Master IRanges in R for efficient genomic interval operations. Learn with examples how IRanges powers GRanges, ChIP-Seq analysis, and coverage workflows in Bioconductor."
 featured: true
 ---
 

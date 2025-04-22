@@ -2,7 +2,7 @@
 
 Welcome to my **personal website**, built with [Hugo](https://gohugo.io/) and hosted on [Netlify](https://www.netlify.com/).  
 
-🔗 **Live Site:** [https://your-site-name.netlify.app](https://your-site-name.netlify.app)  
+🔗 **Live Site:** [https://badran-elshenawy.netlify.app/](https://badran-elshenawy.netlify.app/)
 
 ---
 
