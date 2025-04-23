@@ -23,7 +23,7 @@ aliases:
   - "/posts/genomic_granges/"
 summary: "Explore how GRanges adds chromosomes, strand, and metadata to IRanges. Learn to build, manipulate, and analyze GRanges for high-throughput genomic workflows in Bioconductor."
 featured: true
-rmd_hash: 8ad2e585806eae72
+rmd_hash: 63694c7a73ca4586
 
 ---
 
@@ -33,7 +33,7 @@ rmd_hash: 8ad2e585806eae72
 
 In genomic data analysis, you're not just working with abstract intervals --- you're dealing with **real biological context**. This is where the **GRanges** class from the `GenomicRanges` package comes in.
 
-Think of `GRanges` as the genomic extension of `IRanges`, the foundational data structure we explored in [Post 4](https://badran-elshenawy.netlify.app/posts/iranges/). While `IRanges` manages interval arithmetic, `GRanges` wraps those intervals in meaningful annotations like **chromosomes**, **strands**, and **metadata**.
+Think of `GRanges` as the genomic extension of `IRanges`, the foundational data structure we explored in [Post 4](https://badran-elshenawy.netlify.app/posts/genomic-iranges/). While `IRanges` manages interval arithmetic, `GRanges` wraps those intervals in meaningful annotations like **chromosomes**, **strands**, and **metadata**.
 
 ------------------------------------------------------------------------
 
