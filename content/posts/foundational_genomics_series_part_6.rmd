@@ -26,11 +26,11 @@ summary: "Explore the power of GRangesList for grouped genomic analyses. Learn t
 featured: true
 ---
 
-# 🧬 Foundations of Genomic Data Handling in R – Post 6: GRangesList
+# 🧬 Foundations of Genomic Data Handling in R -- Post 6: GRangesList
 
 ## 🚀 Why GRangesList?
 
-After mastering **GRanges** to represent single sets of genomic intervals with biological context, you often need to handle **groups** of such ranges—in exons grouped by transcript, peaks grouped by sample, or variants grouped by chromosome. Enter **GRangesList**, the list-like container that preserves both the structure and metadata of each GRanges element.
+After mastering **GRanges** to represent single sets of genomic intervals with biological context, you often need to handle **groups** of such ranges---in exons grouped by transcript, peaks grouped by sample, or variants grouped by chromosome. Enter **GRangesList**, the list-like container that preserves both the structure and metadata of each GRanges element.
 
 A **GRangesList** holds multiple **GRanges** objects, each identified by a name (e.g., transcript ID, sample name). This enables modular, grouped analyses at scale.
 
@@ -65,22 +65,20 @@ grl
 
 **Output:**
 
-```         
-GRangesList object of length 2:
-$transcript1
-GRanges object with 2 ranges and 0 metadata columns:
-      seqnames    ranges strand
-         <Rle> <IRanges>  <Rle>
-  [1]     chr1       1-10      +
-  [2]     chr1      20-30      +
+    GRangesList object of length 2:
+    $transcript1
+    GRanges object with 2 ranges and 0 metadata columns:
+          seqnames    ranges strand
+             <Rle> <IRanges>  <Rle>
+      [1]     chr1       1-10      +
+      [2]     chr1      20-30      +
 
-$transcript2
-GRanges object with 2 ranges and 0 metadata columns:
-      seqnames    ranges strand
-         <Rle> <IRanges>  <Rle>
-  [1]     chr2     100-120      -
-  [2]     chr2     150-170      -
-```
+    $transcript2
+    GRanges object with 2 ranges and 0 metadata columns:
+          seqnames    ranges strand
+             <Rle> <IRanges>  <Rle>
+      [1]     chr2     100-120      -
+      [2]     chr2     150-170      -
 
 ------------------------------------------------------------------------
 
@@ -96,7 +94,7 @@ unlist(grl)     # Flatten to a single GRanges with grouping info
 -   **`length(grl)`** returns how many groups you have.
 -   **`names(grl)`** returns the group identifiers.
 -   **`[[ ]]`** indexing accesses individual GRanges elements.
--   **`unlist()`** flattens the list into one big GRanges, embedding a **`group`** metadata column via an **`Rle`** under the hood.
+-   **[`unlist()`](https://rdrr.io/r/base/unlist.html)** flattens the list into one big GRanges, embedding a **`group`** metadata column via an **`Rle`** under the hood.
 
 ------------------------------------------------------------------------
 
@@ -166,13 +164,13 @@ This workflow uses **GRangesList** to maintain transcript-level structure, enabl
 -   Integrates seamlessly into **SummarizedExperiment** for multi-assay experiments.
 -   Supports **large-scale** and **nested** genomic workflows.
 
-Mastering GRangesList equips you to handle complex genomic groupings—essential for transcriptomics, epigenomics, and beyond.
+Mastering GRangesList equips you to handle complex genomic groupings---essential for transcriptomics, epigenomics, and beyond.
 
 ------------------------------------------------------------------------
 
-## 🧬 What’s Next?
+## 🧬 What's Next?
 
-Coming up: **TxDb & GenomicFeatures** — the bridge between annotation files and GRanges/GRangesList objects, empowering automated gene model extraction and feature annotation. 🎯
+Coming up: **TxDb & GenomicFeatures** --- the bridge between annotation files and GRanges/GRangesList objects, empowering automated gene model extraction and feature annotation. 🎯
 
 ------------------------------------------------------------------------
 
@@ -181,3 +179,4 @@ Coming up: **TxDb & GenomicFeatures** — the bridge between annotation files an
 How are you leveraging GRangesList in your pipelines? Any tips or tricks to share? Drop a comment below! 👇
 
 #Bioinformatics #RStats #GRangesList #GenomicData #Bioconductor #IRanges #Rle #Transcriptomics #ComputationalBiology #AlternativeSplicing #NGS #Genomics #GroupedData #Isoforms #TxDb
+

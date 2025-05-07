@@ -5,27 +5,66 @@
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-05-06T11:54:00+00:00</lastmod>
+    <lastmod>2025-05-07T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/bam/</loc>
+    <lastmod>2025-05-07T11:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/bioconductor/</loc>
-    <lastmod>2025-05-06T11:54:00+00:00</lastmod>
+    <lastmod>2025-05-07T11:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/bioinformatics/</loc>
-    <lastmod>2025-05-06T11:54:00+00:00</lastmod>
+    <lastmod>2025-05-07T11:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-05-06T11:54:00+00:00</lastmod>
+    <lastmod>2025-05-07T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/chip-seq/</loc>
+    <lastmod>2025-05-07T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/data-structures/</loc>
+    <lastmod>2025-05-07T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/genomic-alignments/</loc>
+    <lastmod>2025-05-07T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/genomicalignments/</loc>
+    <lastmod>2025-05-07T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/genomics/</loc>
+    <lastmod>2025-05-07T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ngs/</loc>
+    <lastmod>2025-05-07T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-05-07T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/r/</loc>
+    <lastmod>2025-05-07T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rna-seq/</loc>
+    <lastmod>2025-05-07T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rsamtools/</loc>
+    <lastmod>2025-05-07T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sam/</loc>
+    <lastmod>2025-05-07T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sequence-analysis/</loc>
+    <lastmod>2025-05-07T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/summarizedexperiment/</loc>
+    <lastmod>2025-05-07T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-05-07T11:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/computational-biology/</loc>
     <lastmod>2025-05-06T11:54:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/data-structures/</loc>
-    <lastmod>2025-05-06T11:54:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/genomic-grangeslist/</loc>
-    <lastmod>2025-05-06T11:54:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/genomics/</loc>
     <lastmod>2025-05-06T11:54:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/granges/</loc>
@@ -40,16 +79,7 @@
     <loc>http://localhost:1313/tags/iranges/</loc>
     <lastmod>2025-05-06T11:54:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-05-06T11:54:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/r/</loc>
-    <lastmod>2025-05-06T11:54:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/rle/</loc>
-    <lastmod>2025-05-06T11:54:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-05-06T11:54:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/transcriptomics/</loc>
@@ -77,9 +107,6 @@
     <lastmod>2025-04-21T17:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/seurat/</loc>
-    <lastmod>2025-04-21T17:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/summarizedexperiment/</loc>
     <lastmod>2025-04-21T17:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/efficiency/</loc>
@@ -140,9 +167,6 @@
     <lastmod>2025-04-07T15:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/bulk-rna-seq-snakemake/</loc>
-    <lastmod>2025-04-07T15:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ngs/</loc>
     <lastmod>2025-04-07T15:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/workflow/</loc>
