@@ -393,6 +393,4 @@ How has plyranges transformed your genomic data analysis workflows? Any favorite
 
 #Bioinformatics #RStats #plyranges #tidyverse #GenomicRanges #Bioconductor #DataManipulation #Genomics #ComputationalBiology #DataScience
 
-![][1]
-
-  [1]: /images/plyranges_post_CodeSnap.png
+![plyranges Figure](/images/plyranges_post_CodeSnap.png)
