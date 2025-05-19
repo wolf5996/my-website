@@ -6,33 +6,40 @@
     <description>Recent content in Categories on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 13 May 2025 09:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 May 2025 00:30:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bioinformatics</title>
       <link>http://localhost:1313/categories/bioinformatics/</link>
-      <pubDate>Tue, 13 May 2025 09:30:00 +0000</pubDate>
+      <pubDate>Mon, 19 May 2025 00:30:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/bioinformatics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Manipulation</title>
+      <link>http://localhost:1313/categories/data-manipulation/</link>
+      <pubDate>Mon, 19 May 2025 00:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/data-manipulation/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Structures</title>
       <link>http://localhost:1313/categories/data-structures/</link>
-      <pubDate>Tue, 13 May 2025 09:30:00 +0000</pubDate>
+      <pubDate>Mon, 19 May 2025 00:30:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/data-structures/</guid>
       <description></description>
     </item>
     <item>
       <title>Genomics</title>
       <link>http://localhost:1313/categories/genomics/</link>
-      <pubDate>Tue, 13 May 2025 09:30:00 +0000</pubDate>
+      <pubDate>Mon, 19 May 2025 00:30:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/genomics/</guid>
       <description></description>
     </item>
     <item>
       <title>R</title>
       <link>http://localhost:1313/categories/r/</link>
-      <pubDate>Tue, 13 May 2025 09:30:00 +0000</pubDate>
+      <pubDate>Mon, 19 May 2025 00:30:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/r/</guid>
       <description></description>
     </item>
