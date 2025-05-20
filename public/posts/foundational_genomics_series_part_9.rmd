@@ -382,4 +382,4 @@ How are you using Biostrings in your genomic workflows? Any tips for optimizing 
 
 ![**Biostrings Figure**]
 
-  [**Biostrings Figure**]: images/biostrings_post_chatgpt.png
+  [**Biostrings Figure**]: ../../static/images/biostrings_post_chatgpt.png
