@@ -6,8 +6,78 @@
     <description>Recent content in Tags on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 20 May 2025 15:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 May 2025 11:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bioconductor</title>
+      <link>http://localhost:1313/tags/bioconductor/</link>
+      <pubDate>Thu, 22 May 2025 11:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bioconductor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Biostrings</title>
+      <link>http://localhost:1313/tags/biostrings/</link>
+      <pubDate>Thu, 22 May 2025 11:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/biostrings/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Preprocessing</title>
+      <link>http://localhost:1313/tags/data-preprocessing/</link>
+      <pubDate>Thu, 22 May 2025 11:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/data-preprocessing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FASTQ</title>
+      <link>http://localhost:1313/tags/fastq/</link>
+      <pubDate>Thu, 22 May 2025 11:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/fastq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Filtering</title>
+      <link>http://localhost:1313/tags/filtering/</link>
+      <pubDate>Thu, 22 May 2025 11:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/filtering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NGS</title>
+      <link>http://localhost:1313/tags/ngs/</link>
+      <pubDate>Thu, 22 May 2025 11:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ngs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quality Control</title>
+      <link>http://localhost:1313/tags/quality-control/</link>
+      <pubDate>Thu, 22 May 2025 11:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/quality-control/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sequencing Data</title>
+      <link>http://localhost:1313/tags/sequencing-data/</link>
+      <pubDate>Thu, 22 May 2025 11:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/sequencing-data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ShortRead</title>
+      <link>http://localhost:1313/tags/shortread/</link>
+      <pubDate>Thu, 22 May 2025 11:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/shortread/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trimming</title>
+      <link>http://localhost:1313/tags/trimming/</link>
+      <pubDate>Thu, 22 May 2025 11:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/trimming/</guid>
+      <description></description>
+    </item>
     <item>
       <title>BED</title>
       <link>http://localhost:1313/tags/bed/</link>
@@ -20,13 +90,6 @@
       <link>http://localhost:1313/tags/bigwig/</link>
       <pubDate>Tue, 20 May 2025 15:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/bigwig/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bioconductor</title>
-      <link>http://localhost:1313/tags/bioconductor/</link>
-      <pubDate>Tue, 20 May 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/bioconductor/</guid>
       <description></description>
     </item>
     <item>
@@ -93,13 +156,6 @@
       <description></description>
     </item>
     <item>
-      <title>Filtering</title>
-      <link>http://localhost:1313/tags/filtering/</link>
-      <pubDate>Mon, 19 May 2025 00:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/filtering/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>GenomicRanges</title>
       <link>http://localhost:1313/tags/genomicranges/</link>
       <pubDate>Mon, 19 May 2025 00:30:00 +0000</pubDate>
@@ -146,13 +202,6 @@
       <link>http://localhost:1313/tags/aastring/</link>
       <pubDate>Tue, 13 May 2025 09:30:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/aastring/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Biostrings</title>
-      <link>http://localhost:1313/tags/biostrings/</link>
-      <pubDate>Tue, 13 May 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/biostrings/</guid>
       <description></description>
     </item>
     <item>
@@ -282,13 +331,6 @@
       <description></description>
     </item>
     <item>
-      <title>NGS</title>
-      <link>http://localhost:1313/tags/ngs/</link>
-      <pubDate>Wed, 07 May 2025 11:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ngs/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>RNA-Seq</title>
       <link>http://localhost:1313/tags/rna-seq/</link>
       <pubDate>Wed, 07 May 2025 11:00:00 +0000</pubDate>
@@ -394,13 +436,6 @@
       <description></description>
     </item>
     <item>
-      <title>FASTQ</title>
-      <link>http://localhost:1313/tags/fastq/</link>
-      <pubDate>Thu, 10 Apr 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/fastq/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>FeatureCounts</title>
       <link>http://localhost:1313/tags/featurecounts/</link>
       <pubDate>Thu, 10 Apr 2025 12:00:00 +0000</pubDate>
@@ -485,13 +520,6 @@
       <description></description>
     </item>
     <item>
-      <title>Sequencing Data</title>
-      <link>http://localhost:1313/tags/sequencing-data/</link>
-      <pubDate>Tue, 01 Apr 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/sequencing-data/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Count Matrix</title>
       <link>http://localhost:1313/tags/count-matrix/</link>
       <pubDate>Wed, 26 Mar 2025 10:10:00 +0000</pubDate>
@@ -545,13 +573,6 @@
       <link>http://localhost:1313/tags/preprocessing/</link>
       <pubDate>Mon, 24 Mar 2025 06:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/preprocessing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Quality Control</title>
-      <link>http://localhost:1313/tags/quality-control/</link>
-      <pubDate>Mon, 24 Mar 2025 06:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/quality-control/</guid>
       <description></description>
     </item>
     <item>

@@ -5,21 +5,69 @@
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-05-20T15:00:00+00:00</lastmod>
+    <lastmod>2025-05-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/bioconductor/</loc>
+    <lastmod>2025-05-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/bioinformatics/</loc>
+    <lastmod>2025-05-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/biostrings/</loc>
+    <lastmod>2025-05-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-05-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/data-preprocessing/</loc>
+    <lastmod>2025-05-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/data-preprocessing/</loc>
+    <lastmod>2025-05-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/fastq/</loc>
+    <lastmod>2025-05-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/filtering/</loc>
+    <lastmod>2025-05-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/shortread/</loc>
+    <lastmod>2025-05-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/genomics/</loc>
+    <lastmod>2025-05-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ngs/</loc>
+    <lastmod>2025-05-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-05-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/quality-control/</loc>
+    <lastmod>2025-05-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/quality-control/</loc>
+    <lastmod>2025-05-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/r/</loc>
+    <lastmod>2025-05-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sequencing-data/</loc>
+    <lastmod>2025-05-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/shortread/</loc>
+    <lastmod>2025-05-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-05-22T11:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/trimming/</loc>
+    <lastmod>2025-05-22T11:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/bed/</loc>
     <lastmod>2025-05-20T15:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/bigwig/</loc>
-    <lastmod>2025-05-20T15:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/bioconductor/</loc>
-    <lastmod>2025-05-20T15:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/bioinformatics/</loc>
-    <lastmod>2025-05-20T15:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-05-20T15:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/data-export/</loc>
@@ -40,25 +88,13 @@
     <loc>http://localhost:1313/tags/genome-browser/</loc>
     <lastmod>2025-05-20T15:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/genomics/</loc>
-    <lastmod>2025-05-20T15:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/gff/</loc>
     <lastmod>2025-05-20T15:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/gtf/</loc>
     <lastmod>2025-05-20T15:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-05-20T15:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/r/</loc>
-    <lastmod>2025-05-20T15:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/rtracklayer/</loc>
-    <lastmod>2025-05-20T15:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-05-20T15:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/wig/</loc>
@@ -74,9 +110,6 @@
     <lastmod>2025-05-19T00:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/dplyr/</loc>
-    <lastmod>2025-05-19T00:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/filtering/</loc>
     <lastmod>2025-05-19T00:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/plyranges/</loc>
@@ -101,9 +134,6 @@
     <lastmod>2025-05-19T00:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/aastring/</loc>
-    <lastmod>2025-05-13T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/biostrings/</loc>
     <lastmod>2025-05-13T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/dnastring/</loc>
@@ -169,9 +199,6 @@
     <loc>http://localhost:1313/posts/genomic-alignments/</loc>
     <lastmod>2025-05-07T11:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ngs/</loc>
-    <lastmod>2025-05-07T11:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/rna-seq/</loc>
     <lastmod>2025-05-07T11:00:00+00:00</lastmod>
   </url><url>
@@ -235,9 +262,6 @@
     <loc>http://localhost:1313/posts/bulk-rna-seq-capstone/</loc>
     <lastmod>2025-04-10T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/fastq/</loc>
-    <lastmod>2025-04-10T12:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/featurecounts/</loc>
     <lastmod>2025-04-10T12:00:00+00:00</lastmod>
   </url><url>
@@ -292,9 +316,6 @@
     <loc>http://localhost:1313/tags/file-formats/</loc>
     <lastmod>2025-04-01T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/sequencing-data/</loc>
-    <lastmod>2025-04-01T12:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/bulk-rna-seq-count-matrix/</loc>
     <lastmod>2025-03-26T10:10:00+00:00</lastmod>
   </url><url>
@@ -326,9 +347,6 @@
     <lastmod>2025-03-24T06:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/preprocessing/</loc>
-    <lastmod>2025-03-24T06:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/quality-control/</loc>
     <lastmod>2025-03-24T06:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/read-trimming/</loc>
