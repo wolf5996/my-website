@@ -6,13 +6,41 @@
     <description>Recent content in Categories on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 May 2025 11:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jun 2025 09:30:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bioinformatics</title>
       <link>http://localhost:1313/categories/bioinformatics/</link>
-      <pubDate>Thu, 22 May 2025 11:00:00 +0000</pubDate>
+      <pubDate>Thu, 05 Jun 2025 09:30:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/bioinformatics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Structures</title>
+      <link>http://localhost:1313/categories/data-structures/</link>
+      <pubDate>Thu, 05 Jun 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/data-structures/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Experimental Design</title>
+      <link>http://localhost:1313/categories/experimental-design/</link>
+      <pubDate>Thu, 05 Jun 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/experimental-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Genomics</title>
+      <link>http://localhost:1313/categories/genomics/</link>
+      <pubDate>Thu, 05 Jun 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/genomics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>R</title>
+      <link>http://localhost:1313/categories/r/</link>
+      <pubDate>Thu, 05 Jun 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/r/</guid>
       <description></description>
     </item>
     <item>
@@ -23,24 +51,10 @@
       <description></description>
     </item>
     <item>
-      <title>Genomics</title>
-      <link>http://localhost:1313/categories/genomics/</link>
-      <pubDate>Thu, 22 May 2025 11:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/genomics/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Quality Control</title>
       <link>http://localhost:1313/categories/quality-control/</link>
       <pubDate>Thu, 22 May 2025 11:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/quality-control/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>R</title>
-      <link>http://localhost:1313/categories/r/</link>
-      <pubDate>Thu, 22 May 2025 11:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/r/</guid>
       <description></description>
     </item>
     <item>
@@ -62,13 +76,6 @@
       <link>http://localhost:1313/categories/data-manipulation/</link>
       <pubDate>Mon, 19 May 2025 00:30:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/data-manipulation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Structures</title>
-      <link>http://localhost:1313/categories/data-structures/</link>
-      <pubDate>Mon, 19 May 2025 00:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/data-structures/</guid>
       <description></description>
     </item>
     <item>
