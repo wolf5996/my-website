@@ -6,8 +6,15 @@
     <description>Recent content in RNA-Seq on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Jun 2025 09:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Jun 2025 09:30:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/rna-seq/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering Bulk RNA-seq Analysis – Post 1: Introduction</title>
+      <link>http://localhost:1313/posts/rnaseq-analysis-introduction/</link>
+      <pubDate>Tue, 10 Jun 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/rnaseq-analysis-introduction/</guid>
+      <description>Discover the complete roadmap for mastering bulk RNA-seq analysis in R. This series introduction outlines a 10-post journey from foundational concepts to advanced applications, building on genomic data structures to solve real biological questions through differential expression analysis.</description>
+    </item>
     <item>
       <title>Foundations of Genomic Data – Post 13: SummarizedExperiment</title>
       <link>http://localhost:1313/posts/summarizedexperiment/</link>

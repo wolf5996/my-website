@@ -426,4 +426,4 @@ How has this series changed your approach to genomic data analysis? Which packag
 
 #Bioinformatics #RStats #SummarizedExperiment #Bioconductor #RNAseq #ChIPseq #GenomicRanges #DataFrame #ExperimentalGenomics #DataScience #ComputationalBiology #Genomics
 
-![SummarizedExperiment Schematic](images/SummarizedExperiment_post_image.png)
+![SummarizedExperiment Schematic](/images/SummarizedExperiment_post_image.png)
