@@ -6,13 +6,76 @@
     <description>Recent content in Tags on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Jun 2025 09:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Jul 2025 09:30:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bioconductor</title>
       <link>http://localhost:1313/tags/bioconductor/</link>
-      <pubDate>Tue, 10 Jun 2025 09:30:00 +0000</pubDate>
+      <pubDate>Tue, 29 Jul 2025 09:30:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/bioconductor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Count Data</title>
+      <link>http://localhost:1313/tags/count-data/</link>
+      <pubDate>Tue, 29 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/count-data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DESeq2</title>
+      <link>http://localhost:1313/tags/deseq2/</link>
+      <pubDate>Tue, 29 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/deseq2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Differential Expression</title>
+      <link>http://localhost:1313/tags/differential-expression/</link>
+      <pubDate>Tue, 29 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/differential-expression/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>False Discovery Rate</title>
+      <link>http://localhost:1313/tags/false-discovery-rate/</link>
+      <pubDate>Tue, 29 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/false-discovery-rate/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gene Expression Analysis</title>
+      <link>http://localhost:1313/tags/gene-expression-analysis/</link>
+      <pubDate>Tue, 29 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gene-expression-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Negative Binomial</title>
+      <link>http://localhost:1313/tags/negative-binomial/</link>
+      <pubDate>Tue, 29 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/negative-binomial/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RNA-Seq</title>
+      <link>http://localhost:1313/tags/rna-seq/</link>
+      <pubDate>Tue, 29 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rna-seq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Statistical Analysis</title>
+      <link>http://localhost:1313/tags/statistical-analysis/</link>
+      <pubDate>Tue, 29 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/statistical-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Statistical Modeling</title>
+      <link>http://localhost:1313/tags/statistical-modeling/</link>
+      <pubDate>Tue, 29 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/statistical-modeling/</guid>
       <description></description>
     </item>
     <item>
@@ -30,45 +93,10 @@
       <description></description>
     </item>
     <item>
-      <title>DESeq2</title>
-      <link>http://localhost:1313/tags/deseq2/</link>
-      <pubDate>Tue, 10 Jun 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/deseq2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Differential Expression</title>
-      <link>http://localhost:1313/tags/differential-expression/</link>
-      <pubDate>Tue, 10 Jun 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/differential-expression/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gene Expression Analysis</title>
-      <link>http://localhost:1313/tags/gene-expression-analysis/</link>
-      <pubDate>Tue, 10 Jun 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/gene-expression-analysis/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Genomics</title>
       <link>http://localhost:1313/tags/genomics/</link>
       <pubDate>Tue, 10 Jun 2025 09:30:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/genomics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>RNA-Seq</title>
-      <link>http://localhost:1313/tags/rna-seq/</link>
-      <pubDate>Tue, 10 Jun 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/rna-seq/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Statistical Analysis</title>
-      <link>http://localhost:1313/tags/statistical-analysis/</link>
-      <pubDate>Tue, 10 Jun 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/statistical-analysis/</guid>
       <description></description>
     </item>
     <item>

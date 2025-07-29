@@ -5,18 +5,66 @@
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-06-10T09:30:00+00:00</lastmod>
+    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/bioconductor/</loc>
-    <lastmod>2025-06-10T09:30:00+00:00</lastmod>
+    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/bioinformatics/</loc>
-    <lastmod>2025-06-10T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/bulk-rna-seq/</loc>
-    <lastmod>2025-06-10T09:30:00+00:00</lastmod>
+    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/count-data/</loc>
+    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/deseq2/</loc>
+    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/differential-expression/</loc>
+    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/false-discovery-rate/</loc>
+    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/gene-expression/</loc>
+    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/gene-expression-analysis/</loc>
+    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/deseq2-fundamentals/</loc>
+    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/negative-binomial/</loc>
+    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/r/</loc>
+    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rna-seq/</loc>
+    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/rna-seq/</loc>
+    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/statistical-analysis/</loc>
+    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/statistical-modeling/</loc>
+    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/statistics/</loc>
+    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/bulk-rna-seq/</loc>
     <lastmod>2025-06-10T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/computational-biology/</loc>
@@ -25,43 +73,13 @@
     <loc>http://localhost:1313/categories/data-analysis/</loc>
     <lastmod>2025-06-10T09:30:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/deseq2/</loc>
-    <lastmod>2025-06-10T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/differential-expression/</loc>
-    <lastmod>2025-06-10T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/gene-expression/</loc>
-    <lastmod>2025-06-10T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/gene-expression-analysis/</loc>
-    <lastmod>2025-06-10T09:30:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/genomics/</loc>
     <lastmod>2025-06-10T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/rnaseq-analysis-introduction/</loc>
     <lastmod>2025-06-10T09:30:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-06-10T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/r/</loc>
-    <lastmod>2025-06-10T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/rna-seq/</loc>
-    <lastmod>2025-06-10T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/rna-seq/</loc>
-    <lastmod>2025-06-10T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/statistical-analysis/</loc>
-    <lastmod>2025-06-10T09:30:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/summarizedexperiment/</loc>
-    <lastmod>2025-06-10T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-06-10T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/assays/</loc>

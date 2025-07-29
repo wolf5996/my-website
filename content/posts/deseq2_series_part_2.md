@@ -1,7 +1,7 @@
 ---
 title: "Mastering Bulk RNA-seq Analysis – Post 2: DESeq2 Fundamentals"
 author: "Badran Elshenawy"
-date: 2025-05-21T09:30:00Z
+date: 2025-07-29T09:30:00Z
 categories:
   - "Bioinformatics"
   - "R"
@@ -27,7 +27,7 @@ aliases:
   - "/posts/deseq2_fundamentals/"
 summary: "Demystify DESeq2's statistical framework with clear explanations designed for both experimentalists and bioinformaticians. Discover why count data requires specialized methods and how DESeq2's approach transforms messy RNA-seq data into trustworthy biological insights."
 featured: true
-rmd_hash: 4df83da05bdf2a64
+rmd_hash: d08ed7b50c9dda17
 
 ---
 
