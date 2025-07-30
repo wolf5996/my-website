@@ -5,21 +5,66 @@
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
+    <lastmod>2025-07-30T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/bioconductor/</loc>
-    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
+    <lastmod>2025-07-30T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/bioinformatics/</loc>
-    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
+    <lastmod>2025-07-30T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
+    <lastmod>2025-07-30T09:30:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/count-data/</loc>
-    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/count-matrix/</loc>
+    <lastmod>2025-07-30T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/data-import/</loc>
+    <lastmod>2025-07-30T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/data-import/</loc>
+    <lastmod>2025-07-30T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/data-preprocessing/</loc>
+    <lastmod>2025-07-30T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/data-preprocessing/</loc>
+    <lastmod>2025-07-30T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/deseq2/</loc>
+    <lastmod>2025-07-30T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/deseqdataset/</loc>
+    <lastmod>2025-07-30T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/featurecounts/</loc>
+    <lastmod>2025-07-30T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/data-import-preprocessing/</loc>
+    <lastmod>2025-07-30T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-07-30T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/r/</loc>
+    <lastmod>2025-07-30T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rna-seq/</loc>
+    <lastmod>2025-07-30T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/rna-seq/</loc>
+    <lastmod>2025-07-30T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sample-metadata/</loc>
+    <lastmod>2025-07-30T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-07-30T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tximport/</loc>
+    <lastmod>2025-07-30T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/count-data/</loc>
     <lastmod>2025-07-29T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/differential-expression/</loc>
@@ -40,18 +85,6 @@
     <loc>http://localhost:1313/tags/negative-binomial/</loc>
     <lastmod>2025-07-29T09:30:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/r/</loc>
-    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/rna-seq/</loc>
-    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/rna-seq/</loc>
-    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/statistical-analysis/</loc>
     <lastmod>2025-07-29T09:30:00+00:00</lastmod>
   </url><url>
@@ -59,9 +92,6 @@
     <lastmod>2025-07-29T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/statistics/</loc>
-    <lastmod>2025-07-29T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-07-29T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/bulk-rna-seq/</loc>
@@ -118,12 +148,6 @@
     <loc>http://localhost:1313/tags/biostrings/</loc>
     <lastmod>2025-05-22T11:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/data-preprocessing/</loc>
-    <lastmod>2025-05-22T11:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/data-preprocessing/</loc>
-    <lastmod>2025-05-22T11:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/fastq/</loc>
     <lastmod>2025-05-22T11:00:00+00:00</lastmod>
   </url><url>
@@ -158,9 +182,6 @@
     <lastmod>2025-05-20T15:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/data-export/</loc>
-    <lastmod>2025-05-20T15:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/data-import/</loc>
     <lastmod>2025-05-20T15:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/file-conversion/</loc>
@@ -325,9 +346,6 @@
     <loc>http://localhost:1313/posts/bulk-rna-seq-capstone/</loc>
     <lastmod>2025-04-10T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/featurecounts/</loc>
-    <lastmod>2025-04-10T12:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/htseq/</loc>
     <lastmod>2025-04-10T12:00:00+00:00</lastmod>
   </url><url>
@@ -377,9 +395,6 @@
     <lastmod>2025-04-01T12:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/bulk-rna-seq-count-matrix/</loc>
-    <lastmod>2025-03-26T10:10:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/count-matrix/</loc>
     <lastmod>2025-03-26T10:10:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/read-quantification/</loc>
@@ -554,9 +569,6 @@
     <lastmod>2025-02-28T16:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/csv-handling/</loc>
-    <lastmod>2025-02-26T10:50:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/data-import/</loc>
     <lastmod>2025-02-26T10:50:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/efficient-data-loading/</loc>

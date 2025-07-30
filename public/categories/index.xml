@@ -6,13 +6,41 @@
     <description>Recent content in Categories on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Jul 2025 09:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Jul 2025 09:30:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bioinformatics</title>
       <link>http://localhost:1313/categories/bioinformatics/</link>
-      <pubDate>Tue, 29 Jul 2025 09:30:00 +0000</pubDate>
+      <pubDate>Wed, 30 Jul 2025 09:30:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/bioinformatics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Import</title>
+      <link>http://localhost:1313/categories/data-import/</link>
+      <pubDate>Wed, 30 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/data-import/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Preprocessing</title>
+      <link>http://localhost:1313/categories/data-preprocessing/</link>
+      <pubDate>Wed, 30 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/data-preprocessing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>R</title>
+      <link>http://localhost:1313/categories/r/</link>
+      <pubDate>Wed, 30 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/r/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RNA-Seq</title>
+      <link>http://localhost:1313/categories/rna-seq/</link>
+      <pubDate>Wed, 30 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/rna-seq/</guid>
       <description></description>
     </item>
     <item>
@@ -20,20 +48,6 @@
       <link>http://localhost:1313/categories/gene-expression/</link>
       <pubDate>Tue, 29 Jul 2025 09:30:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/gene-expression/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>R</title>
-      <link>http://localhost:1313/categories/r/</link>
-      <pubDate>Tue, 29 Jul 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/r/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>RNA-Seq</title>
-      <link>http://localhost:1313/categories/rna-seq/</link>
-      <pubDate>Tue, 29 Jul 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/rna-seq/</guid>
       <description></description>
     </item>
     <item>
@@ -72,24 +86,10 @@
       <description></description>
     </item>
     <item>
-      <title>Data Preprocessing</title>
-      <link>http://localhost:1313/categories/data-preprocessing/</link>
-      <pubDate>Thu, 22 May 2025 11:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/data-preprocessing/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Quality Control</title>
       <link>http://localhost:1313/categories/quality-control/</link>
       <pubDate>Thu, 22 May 2025 11:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/quality-control/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data Import</title>
-      <link>http://localhost:1313/categories/data-import/</link>
-      <pubDate>Tue, 20 May 2025 15:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/data-import/</guid>
       <description></description>
     </item>
     <item>
