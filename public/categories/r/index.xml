@@ -6,8 +6,15 @@
     <description>Recent content in R on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Jul 2025 09:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 31 Jul 2025 09:30:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering Bulk RNA-seq Analysis – Post 4: Experimental Design &amp; Count Matrix Setup</title>
+      <link>http://localhost:1313/posts/experimental-design-count-matrix/</link>
+      <pubDate>Thu, 31 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/experimental-design-count-matrix/</guid>
+      <description>Discover how experimental design determines the success of your RNA-seq analysis. Explore common design patterns, sample size guidelines, and best practices for handling complex experimental factors while avoiding the pitfalls that derail many analyses.</description>
+    </item>
     <item>
       <title>Mastering Bulk RNA-seq Analysis – Post 3: Data Import &amp; Preprocessing</title>
       <link>http://localhost:1313/posts/data-import-preprocessing/</link>

@@ -6,8 +6,78 @@
     <description>Recent content in Tags on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Jul 2025 09:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 31 Jul 2025 09:30:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Batch Effects</title>
+      <link>http://localhost:1313/tags/batch-effects/</link>
+      <pubDate>Thu, 31 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/batch-effects/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DESeq2</title>
+      <link>http://localhost:1313/tags/deseq2/</link>
+      <pubDate>Thu, 31 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/deseq2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design Formula</title>
+      <link>http://localhost:1313/tags/design-formula/</link>
+      <pubDate>Thu, 31 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/design-formula/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Experimental Design</title>
+      <link>http://localhost:1313/tags/experimental-design/</link>
+      <pubDate>Thu, 31 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/experimental-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Factorial Design</title>
+      <link>http://localhost:1313/tags/factorial-design/</link>
+      <pubDate>Thu, 31 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/factorial-design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gene Expression Analysis</title>
+      <link>http://localhost:1313/tags/gene-expression-analysis/</link>
+      <pubDate>Thu, 31 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gene-expression-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Paired Samples</title>
+      <link>http://localhost:1313/tags/paired-samples/</link>
+      <pubDate>Thu, 31 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/paired-samples/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RNA-Seq</title>
+      <link>http://localhost:1313/tags/rna-seq/</link>
+      <pubDate>Thu, 31 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rna-seq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sample Size</title>
+      <link>http://localhost:1313/tags/sample-size/</link>
+      <pubDate>Thu, 31 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/sample-size/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Statistical Modeling</title>
+      <link>http://localhost:1313/tags/statistical-modeling/</link>
+      <pubDate>Thu, 31 Jul 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/statistical-modeling/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Bioconductor</title>
       <link>http://localhost:1313/tags/bioconductor/</link>
@@ -37,13 +107,6 @@
       <description></description>
     </item>
     <item>
-      <title>DESeq2</title>
-      <link>http://localhost:1313/tags/deseq2/</link>
-      <pubDate>Wed, 30 Jul 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/deseq2/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>DESeqDataSet</title>
       <link>http://localhost:1313/tags/deseqdataset/</link>
       <pubDate>Wed, 30 Jul 2025 09:30:00 +0000</pubDate>
@@ -55,13 +118,6 @@
       <link>http://localhost:1313/tags/featurecounts/</link>
       <pubDate>Wed, 30 Jul 2025 09:30:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/featurecounts/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>RNA-Seq</title>
-      <link>http://localhost:1313/tags/rna-seq/</link>
-      <pubDate>Wed, 30 Jul 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/rna-seq/</guid>
       <description></description>
     </item>
     <item>
@@ -100,13 +156,6 @@
       <description></description>
     </item>
     <item>
-      <title>Gene Expression Analysis</title>
-      <link>http://localhost:1313/tags/gene-expression-analysis/</link>
-      <pubDate>Tue, 29 Jul 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/gene-expression-analysis/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Negative Binomial</title>
       <link>http://localhost:1313/tags/negative-binomial/</link>
       <pubDate>Tue, 29 Jul 2025 09:30:00 +0000</pubDate>
@@ -118,13 +167,6 @@
       <link>http://localhost:1313/tags/statistical-analysis/</link>
       <pubDate>Tue, 29 Jul 2025 09:30:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/statistical-analysis/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Statistical Modeling</title>
-      <link>http://localhost:1313/tags/statistical-modeling/</link>
-      <pubDate>Tue, 29 Jul 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/statistical-modeling/</guid>
       <description></description>
     </item>
     <item>
