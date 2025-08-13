@@ -159,7 +159,7 @@
             </span>
             <span class="reading-time">
               <i class="fa-solid fa-clock" aria-hidden="true"></i>
-              7-minute read
+              8-minute read
             </span>
           </div>
           
@@ -281,80 +281,186 @@
 <p><strong>The Problem</strong>: Longer genes naturally capture more reads than shorter genes with identical expression levels.</p>
 <p><strong>When This Matters</strong>: Comparing expression between different genes (TPM/FPKM), but not for differential expression of the same gene across conditions (DESeq2).</p>
 <hr>
-<h2 id="-deseq2s-median-of-ratios-method">
-  🧠 DESeq2&rsquo;s Median-of-Ratios Method
-  <a class="heading-link" href="#-deseq2s-median-of-ratios-method">
+<h2 id="-deseq2s-median-of-ratios-method-made-simple">
+  🧠 DESeq2&rsquo;s Median-of-Ratios Method Made Simple
+  <a class="heading-link" href="#-deseq2s-median-of-ratios-method-made-simple">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<p>DESeq2 uses an elegant approach called the &ldquo;median-of-ratios&rdquo; method that&rsquo;s robust to the challenges above:</p>
-<h3 id="step-by-step-process">
-  Step-by-Step Process
-  <a class="heading-link" href="#step-by-step-process">
+<p>DESeq2 uses an elegant approach that&rsquo;s easier to understand with a concrete example:</p>
+<h3 id="simple-example-3-genes-3-samples">
+  Simple Example: 3 Genes, 3 Samples
+  <a class="heading-link" href="#simple-example-3-genes-3-samples">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1"># 1. Calculate geometric mean for each gene across all samples</span>
-</span></span><span class="line"><span class="cl"><span class="n">geometric_means</span> <span class="o">&lt;-</span> <span class="nf">apply</span><span class="p">(</span><span class="n">counts</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="kr">function</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="nf">exp</span><span class="p">(</span><span class="nf">mean</span><span class="p">(</span><span class="nf">log</span><span class="p">(</span><span class="n">x[x</span> <span class="o">&gt;</span> <span class="m">0</span><span class="n">]</span><span class="p">))))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 2. For each sample, calculate ratios to geometric means</span>
-</span></span><span class="line"><span class="cl"><span class="n">ratios</span> <span class="o">&lt;-</span> <span class="nf">sweep</span><span class="p">(</span><span class="n">counts</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="n">geometric_means</span><span class="p">,</span> <span class="s">&#34;/&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 3. Take median ratio for each sample (this is the size factor)</span>
-</span></span><span class="line"><span class="cl"><span class="n">size_factors</span> <span class="o">&lt;-</span> <span class="nf">apply</span><span class="p">(</span><span class="n">ratios</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="n">median</span><span class="p">,</span> <span class="n">na.rm</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># 4. Normalize counts</span>
-</span></span><span class="line"><span class="cl"><span class="n">normalized_counts</span> <span class="o">&lt;-</span> <span class="nf">sweep</span><span class="p">(</span><span class="n">counts</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="n">size_factors</span><span class="p">,</span> <span class="s">&#34;/&#34;</span><span class="p">)</span>
-</span></span></code></pre></div><h3 id="why-this-works">
-  Why This Works
-  <a class="heading-link" href="#why-this-works">
+<p><strong>Step 1: Your raw count data</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Gene</th>
+          <th>Sample1</th>
+          <th>Sample2</th>
+          <th>Sample3</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>A</td>
+          <td>100</td>
+          <td>200</td>
+          <td>150</td>
+      </tr>
+      <tr>
+          <td>B</td>
+          <td>50</td>
+          <td>100</td>
+          <td>75</td>
+      </tr>
+      <tr>
+          <td>C</td>
+          <td>200</td>
+          <td>400</td>
+          <td>300</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Step 2: Calculate &ldquo;typical&rdquo; expression for each gene (geometric mean)</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Gene</th>
+          <th>Typical Expression</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>A</td>
+          <td>147</td>
+      </tr>
+      <tr>
+          <td>B</td>
+          <td>73</td>
+      </tr>
+      <tr>
+          <td>C</td>
+          <td>294</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Step 3: For each sample, how do the genes compare to their typical expression?</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Gene</th>
+          <th>Sample1 Ratio</th>
+          <th>Sample2 Ratio</th>
+          <th>Sample3 Ratio</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>A</td>
+          <td>100/147 = 0.68</td>
+          <td>200/147 = 1.36</td>
+          <td>150/147 = 1.02</td>
+      </tr>
+      <tr>
+          <td>B</td>
+          <td>50/73 = 0.68</td>
+          <td>100/73 = 1.37</td>
+          <td>75/73 = 1.03</td>
+      </tr>
+      <tr>
+          <td>C</td>
+          <td>200/294 = 0.68</td>
+          <td>400/294 = 1.36</td>
+          <td>300/294 = 1.02</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Step 4: Take the median ratio for each sample (this is the size factor)</strong> - Sample1: <strong>0.68</strong> (all genes are lower than typical) - Sample2: <strong>1.36</strong> (all genes are higher than typical)</p>
+<ul>
+<li>Sample3: <strong>1.02</strong> (all genes are close to typical)</li>
+</ul>
+<p><strong>Step 5: Divide each sample&rsquo;s counts by its size factor</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Gene</th>
+          <th>Sample1</th>
+          <th>Sample2</th>
+          <th>Sample3</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>A</td>
+          <td>147</td>
+          <td>147</td>
+          <td>147</td>
+      </tr>
+      <tr>
+          <td>B</td>
+          <td>74</td>
+          <td>74</td>
+          <td>74</td>
+      </tr>
+      <tr>
+          <td>C</td>
+          <td>294</td>
+          <td>294</td>
+          <td>294</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>🎯 The Magic</strong>: After normalization, each gene has consistent expression across samples!</p>
+<h3 id="why-this-works-so-well">
+  Why This Works So Well
+  <a class="heading-link" href="#why-this-works-so-well">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
-<p>The median-of-ratios method is robust because: - <strong>Geometric means</strong> aren&rsquo;t affected by a few highly expressed genes - <strong>Median ratios</strong> are resistant to outliers - <strong>Gene-specific ratios</strong> account for natural expression differences</p>
+<ul>
+<li><strong>Uses all genes</strong>: More robust than picking a few &ldquo;housekeeping&rdquo; genes</li>
+<li><strong>Median is stable</strong>: A few weird genes won&rsquo;t throw off the calculation</li>
+<li><strong>Gene-specific ratios</strong>: Accounts for the fact that different genes naturally have different expression levels</li>
+</ul>
 <hr>
-<h2 id="-the-normalization-landscape">
-  💪 The Normalization Landscape
-  <a class="heading-link" href="#-the-normalization-landscape">
+<h2 id="-different-normalization-approaches">
+  💪 Different Normalization Approaches
+  <a class="heading-link" href="#-different-normalization-approaches">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<h3 id="deseq2-size-factors-recommended-for-de-analysis">
-  DESeq2 Size Factors (Recommended for DE Analysis)
-  <a class="heading-link" href="#deseq2-size-factors-recommended-for-de-analysis">
+<h3 id="deseq2-size-factors-what-we-recommend">
+  DESeq2 Size Factors (What We Recommend)
+  <a class="heading-link" href="#deseq2-size-factors-what-we-recommend">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">dds</span> <span class="o">&lt;-</span> <span class="nf">DESeq</span><span class="p">(</span><span class="n">dds</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="nf">sizeFactors</span><span class="p">(</span><span class="n">dds</span><span class="p">)</span>
-</span></span></code></pre></div><p><strong>Best for</strong>: Differential expression analysis <strong>Pros</strong>: Robust, handles composition bias well <strong>Cons</strong>: Doesn&rsquo;t account for gene length</p>
-<h3 id="tmm-trimmed-mean-of-m-values">
-  TMM (Trimmed Mean of M-values)
-  <a class="heading-link" href="#tmm-trimmed-mean-of-m-values">
+<p><strong>What it does</strong>: Uses the median-of-ratios method we just explained <strong>Best for</strong>: Finding differentially expressed genes <strong>Why it&rsquo;s great</strong>: Robust and handles most real-world problems</p>
+<h3 id="tmm-alternative-method">
+  TMM (Alternative Method)
+  <a class="heading-link" href="#tmm-alternative-method">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">edgeR</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">tmm_factors</span> <span class="o">&lt;-</span> <span class="nf">calcNormFactors</span><span class="p">(</span><span class="n">counts</span><span class="p">,</span> <span class="n">method</span> <span class="o">=</span> <span class="s">&#34;TMM&#34;</span><span class="p">)</span>
-</span></span></code></pre></div><p><strong>Best for</strong>: Alternative to DESeq2, especially with extreme composition bias <strong>Pros</strong>: Very robust to outliers <strong>Cons</strong>: More complex implementation</p>
-<h3 id="tpmfpkm-for-gene-to-gene-comparisons">
-  TPM/FPKM (For Gene-to-Gene Comparisons)
-  <a class="heading-link" href="#tpmfpkm-for-gene-to-gene-comparisons">
+<p><strong>What it does</strong>: Similar to DESeq2 but trims extreme values <strong>Best for</strong>: Datasets with very unusual composition bias <strong>When to use</strong>: If DESeq2 size factors look weird</p>
+<h3 id="tpmfpkm-different-purpose">
+  TPM/FPKM (Different Purpose)
+  <a class="heading-link" href="#tpmfpkm-different-purpose">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1"># TPM calculation example</span>
-</span></span><span class="line"><span class="cl"><span class="n">gene_lengths</span> <span class="o">&lt;-</span> <span class="nf">rowData</span><span class="p">(</span><span class="n">dds</span><span class="p">)</span><span class="o">$</span><span class="n">length</span>
-</span></span><span class="line"><span class="cl"><span class="n">rpk</span> <span class="o">&lt;-</span> <span class="nf">sweep</span><span class="p">(</span><span class="n">counts</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="n">gene_lengths</span><span class="o">/</span><span class="m">1000</span><span class="p">,</span> <span class="s">&#34;/&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="n">tpm</span> <span class="o">&lt;-</span> <span class="nf">sweep</span><span class="p">(</span><span class="n">rpk</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="nf">colSums</span><span class="p">(</span><span class="n">rpk</span><span class="p">)</span><span class="o">/</span><span class="m">1e6</span><span class="p">,</span> <span class="s">&#34;/&#34;</span><span class="p">)</span>
-</span></span></code></pre></div><p><strong>Best for</strong>: Comparing expression between different genes <strong>Pros</strong>: Accounts for gene length <strong>Cons</strong>: Not recommended for differential expression</p>
+<p><strong>What it does</strong>: Also accounts for how long each gene is <strong>Best for</strong>: Comparing expression between different genes (Gene A vs Gene B) <strong>Important</strong>: Don&rsquo;t use these for differential expression analysis!</p>
 <hr>
 <h2 id="-normalization-in-practice">
   🔬 Normalization in Practice
@@ -415,66 +521,63 @@
 </span></span><span class="line"><span class="cl"><span class="nf">barplot</span><span class="p">(</span><span class="nf">colSums</span><span class="p">(</span><span class="n">raw_counts</span><span class="p">),</span> <span class="n">main</span> <span class="o">=</span> <span class="s">&#34;Raw Counts&#34;</span><span class="p">,</span> <span class="n">las</span> <span class="o">=</span> <span class="m">2</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nf">barplot</span><span class="p">(</span><span class="nf">colSums</span><span class="p">(</span><span class="n">norm_counts</span><span class="p">),</span> <span class="n">main</span> <span class="o">=</span> <span class="s">&#34;Normalized Counts&#34;</span><span class="p">,</span> <span class="n">las</span> <span class="o">=</span> <span class="m">2</span><span class="p">)</span>
 </span></span></code></pre></div><hr>
-<h2 id="-real-example-the-impact-of-normalization">
-  📊 Real Example: The Impact of Normalization
-  <a class="heading-link" href="#-real-example-the-impact-of-normalization">
+<h2 id="-real-example-why-normalization-changes-everything">
+  📊 Real Example: Why Normalization Changes Everything
+  <a class="heading-link" href="#-real-example-why-normalization-changes-everything">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<p>Let&rsquo;s see how normalization changes interpretation:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1"># Example gene counts before normalization</span>
-</span></span><span class="line"><span class="cl"><span class="n">gene_example</span> <span class="o">&lt;-</span> <span class="nf">data.frame</span><span class="p">(</span>
-</span></span><span class="line"><span class="cl">  <span class="n">Sample1</span> <span class="o">=</span> <span class="m">1000</span><span class="p">,</span>  <span class="c1"># 20M total reads</span>
-</span></span><span class="line"><span class="cl">  <span class="n">Sample2</span> <span class="o">=</span> <span class="m">250</span><span class="p">,</span>   <span class="c1"># 5M total reads  </span>
-</span></span><span class="line"><span class="cl">  <span class="n">Sample3</span> <span class="o">=</span> <span class="m">750</span>    <span class="c1"># 15M total reads</span>
-</span></span><span class="line"><span class="cl"><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Apparent fold changes (raw)</span>
-</span></span><span class="line"><span class="cl"><span class="n">gene_example</span><span class="o">$</span><span class="n">Sample1</span> <span class="o">/</span> <span class="n">gene_example</span><span class="o">$</span><span class="n">Sample2</span>  <span class="c1"># 4-fold difference!</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># After applying size factors</span>
-</span></span><span class="line"><span class="cl"><span class="n">size_factors</span> <span class="o">&lt;-</span> <span class="nf">c</span><span class="p">(</span><span class="m">1.6</span><span class="p">,</span> <span class="m">0.4</span><span class="p">,</span> <span class="m">1.2</span><span class="p">)</span>  <span class="c1"># Proportional to sequencing depth</span>
-</span></span><span class="line"><span class="cl"><span class="n">normalized_gene</span> <span class="o">&lt;-</span> <span class="n">gene_example</span> <span class="o">/</span> <span class="n">size_factors</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># Real fold changes (normalized)</span>
-</span></span><span class="line"><span class="cl"><span class="n">normalized_gene</span><span class="o">$</span><span class="n">Sample1</span> <span class="o">/</span> <span class="n">normalized_gene</span><span class="o">$</span><span class="n">Sample2</span>  <span class="c1"># ~1-fold (no real difference!)</span>
-</span></span></code></pre></div><p><strong>The revelation</strong>: What looked like a 4-fold biological difference was actually just a technical artifact from different sequencing depths!</p>
+<p>Let&rsquo;s say you&rsquo;re comparing a gene between three samples:</p>
+<p><strong>Before normalization (raw counts):</strong> - Sample 1: 1,000 counts - Sample 2: 250 counts</p>
+<ul>
+<li>Sample 3: 750 counts</li>
+</ul>
+<p><strong>Your first thought</strong>: &ldquo;Wow, this gene is 4x higher in Sample 1 than Sample 2!&rdquo;</p>
+<p><strong>But wait</strong>: What if Sample 1 was sequenced much more deeply? - Sample 1: 20 million total reads (size factor = 1.6) - Sample 2: 5 million total reads (size factor = 0.4) - Sample 3: 15 million total reads (size factor = 1.2)</p>
+<p><strong>After normalization:</strong> - Sample 1: 1,000 ÷ 1.6 = 625 counts - Sample 2: 250 ÷ 0.4 = 625 counts - Sample 3: 750 ÷ 1.2 = 625 counts</p>
+<p><strong>The revelation</strong>: The gene actually has identical expression across all samples! The 4-fold difference was just a technical artifact.</p>
+<p>This is why normalization isn&rsquo;t optional&mdash;it reveals the true biology hiding underneath technical noise.</p>
 <hr>
-<h2 id="-normalization-red-flags">
-  ⚡ Normalization Red Flags
-  <a class="heading-link" href="#-normalization-red-flags">
+<h2 id="-how-to-check-if-your-normalization-worked">
+  ⚡ How to Check If Your Normalization Worked
+  <a class="heading-link" href="#-how-to-check-if-your-normalization-worked">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<h3 id="size-factor-outliers">
-  Size Factor Outliers
-  <a class="heading-link" href="#size-factor-outliers">
-    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
-    <span class="sr-only">Link to heading</span>
-  </a>
-</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1"># Check for problematic samples</span>
-</span></span><span class="line"><span class="cl"><span class="n">extreme_factors</span> <span class="o">&lt;-</span> <span class="nf">sizeFactors</span><span class="p">(</span><span class="n">dds</span><span class="p">)</span> <span class="o">&lt;</span> <span class="m">0.3</span> <span class="o">|</span> <span class="nf">sizeFactors</span><span class="p">(</span><span class="n">dds</span><span class="p">)</span> <span class="o">&gt;</span> <span class="m">3</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kr">if</span><span class="p">(</span><span class="nf">any</span><span class="p">(</span><span class="n">extreme_factors</span><span class="p">))</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="nf">cat</span><span class="p">(</span><span class="s">&#34;Extreme size factors detected:&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">  <span class="nf">print</span><span class="p">(</span><span class="nf">sizeFactors</span><span class="p">(</span><span class="n">dds</span><span class="p">)</span><span class="n">[extreme_factors]</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">  <span class="nf">cat</span><span class="p">(</span><span class="s">&#34;Consider investigating these samples for technical issues&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><h3 id="common-causes-of-size-factor-issues">
-  Common Causes of Size Factor Issues
-  <a class="heading-link" href="#common-causes-of-size-factor-issues">
+<h3 id="what-good-size-factors-look-like">
+  What Good Size Factors Look Like
+  <a class="heading-link" href="#what-good-size-factors-look-like">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h3>
 <ul>
-<li><strong>Very low size factors (&lt; 0.5)</strong>: Sample failed during library prep or sequencing</li>
-<li><strong>Very high size factors (&gt; 2)</strong>: Sample contamination or technical artifacts</li>
-<li><strong>Bimodal distribution</strong>: Two different processing batches or conditions</li>
+<li><strong>Range</strong>: Usually between 0.5 and 2.0</li>
+<li><strong>Distribution</strong>: Most should be close to 1.0</li>
+<li><strong>Pattern</strong>: Should reflect your expectation of sequencing depth differences</li>
 </ul>
+<h3 id="red-flags-to-watch-for">
+  Red Flags to Watch For
+  <a class="heading-link" href="#red-flags-to-watch-for">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li><strong>Size factor &lt; 0.3</strong>: Sample might have failed during library prep</li>
+<li><strong>Size factor &gt; 3.0</strong>: Possible contamination or technical problems</li>
+<li><strong>Weird patterns</strong>: If treatment samples all have very different size factors from controls, something might be wrong</li>
+</ul>
+<h3 id="quick-reality-check">
+  Quick Reality Check
+  <a class="heading-link" href="#quick-reality-check">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>After normalization, samples should cluster by biology (treatment vs control), not by technical factors (sequencing batch). If they still cluster by technical factors, normalization might not have been enough.</p>
 <hr>
 <h2 id="-why-proper-normalization-transforms-your-analysis">
   🎉 Why Proper Normalization Transforms Your Analysis
@@ -532,16 +635,18 @@
 </span></span><span class="line"><span class="cl"><span class="c1"># Use for downstream analysis (PCA, clustering, etc.)</span>
 </span></span><span class="line"><span class="cl"><span class="n">vst_data</span> <span class="o">&lt;-</span> <span class="nf">vst</span><span class="p">(</span><span class="n">dds</span><span class="p">)</span>  <span class="c1"># Coming up in Post 6!</span>
 </span></span></code></pre></div><hr>
-<h2 id="-the-bottom-line">
-  🎯 The Bottom Line
-  <a class="heading-link" href="#-the-bottom-line">
+<h2 id="-the-bottom-line-for-experimental-biologists">
+  🎯 The Bottom Line for Experimental Biologists
+  <a class="heading-link" href="#-the-bottom-line-for-experimental-biologists">
     <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
     <span class="sr-only">Link to heading</span>
   </a>
 </h2>
-<p>Normalization is the unsung hero of RNA-seq analysis. It&rsquo;s not glamorous, but it&rsquo;s absolutely critical. The most sophisticated statistical methods and beautiful visualizations are meaningless if your data isn&rsquo;t properly normalized first.</p>
-<p>Remember: <strong>You&rsquo;re not just normalizing numbers&mdash;you&rsquo;re revealing biology.</strong> Proper normalization transforms your data from technical noise into biological signal, enabling every downstream analysis to focus on what really matters: the biological differences you&rsquo;re trying to understand.</p>
-<p>When your collaborator asks why Gene X showed up as differentially expressed, you can confidently say it&rsquo;s because of real biological changes, not because one sample happened to get sequenced more deeply than another.</p>
+<p>Think of normalization like this: <strong>You&rsquo;re removing the technical noise to reveal the biological signal.</strong></p>
+<p><strong>Without normalization</strong>: Your results are dominated by which samples happened to get sequenced more deeply. You might think genes are differentially expressed when they&rsquo;re actually just from samples with different library sizes.</p>
+<p><strong>With proper normalization</strong>: The differences you see actually reflect biology. When you validate a &ldquo;hit&rdquo; from your RNA-seq in the lab, it&rsquo;s likely to work because the difference is real, not technical.</p>
+<p><strong>The practical impact</strong>: - Your differential gene lists become trustworthy - Your follow-up experiments are more likely to succeed - Your collaborators can confidence in your results - Your publications stand up to peer review</p>
+<p>Remember: DESeq2 does all this normalization automatically when you run <code>DESeq(dds)</code>. You don&rsquo;t need to worry about the mathematical details&mdash;just understand that this critical step is happening behind the scenes, transforming your raw counts into biologically meaningful data.</p>
 <hr>
 <h2 id="-whats-next">
   🧪 What&rsquo;s Next?
