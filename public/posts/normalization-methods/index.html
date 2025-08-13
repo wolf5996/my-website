@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Mastering Bulk RNA-seq Analysis – Post 5: Normalization Methods · Badran Elshenawy
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Badran Elshenawy">
+<meta name="description" content="Master the critical step of RNA-seq normalization with DESeq2. Learn why raw counts mislead, how the median-of-ratios method works, and why proper normalization is essential for reliable biological discoveries.">
+<meta name="keywords" content="[bioinformatics data science linux command-line HPC automation]">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Mastering Bulk RNA-seq Analysis – Post 5: Normalization Methods">
+  <meta name="twitter:description" content="Master the critical step of RNA-seq normalization with DESeq2. Learn why raw counts mislead, how the median-of-ratios method works, and why proper normalization is essential for reliable biological discoveries.">
+
+<meta property="og:url" content="http://localhost:1313/posts/normalization-methods/">
+  <meta property="og:site_name" content="Badran Elshenawy">
+  <meta property="og:title" content="Mastering Bulk RNA-seq Analysis – Post 5: Normalization Methods">
+  <meta property="og:description" content="Master the critical step of RNA-seq normalization with DESeq2. Learn why raw counts mislead, how the median-of-ratios method works, and why proper normalization is essential for reliable biological discoveries.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-08-13T08:00:00+00:00">
+    <meta property="article:modified_time" content="2025-08-13T08:00:00+00:00">
+    <meta property="article:tag" content="DESeq2">
+    <meta property="article:tag" content="RNA-Seq">
+    <meta property="article:tag" content="Normalization">
+    <meta property="article:tag" content="Size Factors">
+    <meta property="article:tag" content="Median of Ratios">
+    <meta property="article:tag" content="Library Size">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/posts/normalization-methods/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      Badran Elshenawy
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="http://localhost:1313/posts/normalization-methods/">
+              Mastering Bulk RNA-seq Analysis – Post 5: Normalization Methods
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2025-08-13T08:00:00Z">
+                August 13, 2025
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              7-minute read
+            </span>
+          </div>
+          
+          <div class="categories">
+  <i class="fa-solid fa-folder" aria-hidden="true"></i>
+    <a href="/categories/bioinformatics/">Bioinformatics</a>
+      <span class="separator">•</span>
+    <a href="/categories/r/">R</a>
+      <span class="separator">•</span>
+    <a href="/categories/rna-seq/">RNA-Seq</a>
+      <span class="separator">•</span>
+    <a href="/categories/data-normalization/">Data Normalization</a>
+      <span class="separator">•</span>
+    <a href="/categories/statistics/">Statistics</a></div>
+
+          <div class="tags">
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/deseq2/">DESeq2</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/rna-seq/">RNA-Seq</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/normalization/">Normalization</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/size-factors/">Size Factors</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/median-of-ratios/">Median of Ratios</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/library-size/">Library Size</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/composition-bias/">Composition Bias</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/tmm/">TMM</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/tpm/">TPM</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/gene-expression-analysis/">Gene Expression Analysis</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <h1 id="-mastering-bulk-rna-seq-analysis-in-r----post-5-normalization-methods">
+  🧬 Mastering Bulk RNA-seq Analysis in R &ndash; Post 5: Normalization Methods
+  <a class="heading-link" href="#-mastering-bulk-rna-seq-analysis-in-r----post-5-normalization-methods">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<h2 id="-the-raw-count-reality-check">
+  🚨 The Raw Count Reality Check
+  <a class="heading-link" href="#-the-raw-count-reality-check">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Here&rsquo;s a scenario that catches many researchers off guard: You&rsquo;ve just received your RNA-seq results, and Gene X shows 1,000 counts in Sample A but only 250 counts in Sample B. Your first instinct might be to conclude that Gene X is 4-fold higher in Sample A. <strong>But you&rsquo;d be completely wrong.</strong></p>
+<p>Why? Because Sample A had 20 million total reads while Sample B had only 5 million. The difference you&rsquo;re seeing isn&rsquo;t biology&mdash;it&rsquo;s just that Sample A got sequenced four times more deeply!</p>
+<p>This is why normalization isn&rsquo;t optional in RNA-seq analysis. It&rsquo;s the critical step that transforms meaningless raw counts into biologically interpretable expression values. Get this wrong, and even the most sophisticated downstream analyses will give you misleading results.</p>
+<hr>
+<h2 id="-what-normalization-actually-solves">
+  🎯 What Normalization Actually Solves
+  <a class="heading-link" href="#-what-normalization-actually-solves">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="1-library-size-differences">
+  1. Library Size Differences
+  <a class="heading-link" href="#1-library-size-differences">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p><strong>The Problem</strong>: Different samples get sequenced to different depths due to technical variation in library preparation and sequencing.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1"># Example raw sequencing depths</span>
+</span></span><span class="line"><span class="cl"><span class="n">sample_depths</span> <span class="o">&lt;-</span> <span class="nf">c</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Sample1</span> <span class="o">=</span> <span class="m">25000000</span><span class="p">,</span>  <span class="c1"># 25M reads</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Sample2</span> <span class="o">=</span> <span class="m">15000000</span><span class="p">,</span>  <span class="c1"># 15M reads  </span>
+</span></span><span class="line"><span class="cl">  <span class="n">Sample3</span> <span class="o">=</span> <span class="m">30000000</span>   <span class="c1"># 30M reads</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span></code></pre></div><p><strong>The Impact</strong>: A gene with identical expression will have wildly different raw counts across samples.</p>
+<h3 id="2-composition-bias">
+  2. Composition Bias
+  <a class="heading-link" href="#2-composition-bias">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p><strong>The Problem</strong>: A few highly expressed genes can dominate the total read count, making other genes appear artificially low.</p>
+<p><strong>Real Example</strong>: If Sample A has a viral infection causing massive upregulation of interferon genes, those genes will consume a large portion of the total reads, making housekeeping genes appear downregulated even if their actual expression hasn&rsquo;t changed.</p>
+<h3 id="3-gene-length-bias-context-dependent">
+  3. Gene Length Bias (Context-Dependent)
+  <a class="heading-link" href="#3-gene-length-bias-context-dependent">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p><strong>The Problem</strong>: Longer genes naturally capture more reads than shorter genes with identical expression levels.</p>
+<p><strong>When This Matters</strong>: Comparing expression between different genes (TPM/FPKM), but not for differential expression of the same gene across conditions (DESeq2).</p>
+<hr>
+<h2 id="-deseq2s-median-of-ratios-method">
+  🧠 DESeq2&rsquo;s Median-of-Ratios Method
+  <a class="heading-link" href="#-deseq2s-median-of-ratios-method">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>DESeq2 uses an elegant approach called the &ldquo;median-of-ratios&rdquo; method that&rsquo;s robust to the challenges above:</p>
+<h3 id="step-by-step-process">
+  Step-by-Step Process
+  <a class="heading-link" href="#step-by-step-process">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1"># 1. Calculate geometric mean for each gene across all samples</span>
+</span></span><span class="line"><span class="cl"><span class="n">geometric_means</span> <span class="o">&lt;-</span> <span class="nf">apply</span><span class="p">(</span><span class="n">counts</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="kr">function</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="nf">exp</span><span class="p">(</span><span class="nf">mean</span><span class="p">(</span><span class="nf">log</span><span class="p">(</span><span class="n">x[x</span> <span class="o">&gt;</span> <span class="m">0</span><span class="n">]</span><span class="p">))))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 2. For each sample, calculate ratios to geometric means</span>
+</span></span><span class="line"><span class="cl"><span class="n">ratios</span> <span class="o">&lt;-</span> <span class="nf">sweep</span><span class="p">(</span><span class="n">counts</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="n">geometric_means</span><span class="p">,</span> <span class="s">&#34;/&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 3. Take median ratio for each sample (this is the size factor)</span>
+</span></span><span class="line"><span class="cl"><span class="n">size_factors</span> <span class="o">&lt;-</span> <span class="nf">apply</span><span class="p">(</span><span class="n">ratios</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="n">median</span><span class="p">,</span> <span class="n">na.rm</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 4. Normalize counts</span>
+</span></span><span class="line"><span class="cl"><span class="n">normalized_counts</span> <span class="o">&lt;-</span> <span class="nf">sweep</span><span class="p">(</span><span class="n">counts</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="n">size_factors</span><span class="p">,</span> <span class="s">&#34;/&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><h3 id="why-this-works">
+  Why This Works
+  <a class="heading-link" href="#why-this-works">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>The median-of-ratios method is robust because: - <strong>Geometric means</strong> aren&rsquo;t affected by a few highly expressed genes - <strong>Median ratios</strong> are resistant to outliers - <strong>Gene-specific ratios</strong> account for natural expression differences</p>
+<hr>
+<h2 id="-the-normalization-landscape">
+  💪 The Normalization Landscape
+  <a class="heading-link" href="#-the-normalization-landscape">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="deseq2-size-factors-recommended-for-de-analysis">
+  DESeq2 Size Factors (Recommended for DE Analysis)
+  <a class="heading-link" href="#deseq2-size-factors-recommended-for-de-analysis">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">dds</span> <span class="o">&lt;-</span> <span class="nf">DESeq</span><span class="p">(</span><span class="n">dds</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">sizeFactors</span><span class="p">(</span><span class="n">dds</span><span class="p">)</span>
+</span></span></code></pre></div><p><strong>Best for</strong>: Differential expression analysis <strong>Pros</strong>: Robust, handles composition bias well <strong>Cons</strong>: Doesn&rsquo;t account for gene length</p>
+<h3 id="tmm-trimmed-mean-of-m-values">
+  TMM (Trimmed Mean of M-values)
+  <a class="heading-link" href="#tmm-trimmed-mean-of-m-values">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">edgeR</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">tmm_factors</span> <span class="o">&lt;-</span> <span class="nf">calcNormFactors</span><span class="p">(</span><span class="n">counts</span><span class="p">,</span> <span class="n">method</span> <span class="o">=</span> <span class="s">&#34;TMM&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><p><strong>Best for</strong>: Alternative to DESeq2, especially with extreme composition bias <strong>Pros</strong>: Very robust to outliers <strong>Cons</strong>: More complex implementation</p>
+<h3 id="tpmfpkm-for-gene-to-gene-comparisons">
+  TPM/FPKM (For Gene-to-Gene Comparisons)
+  <a class="heading-link" href="#tpmfpkm-for-gene-to-gene-comparisons">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1"># TPM calculation example</span>
+</span></span><span class="line"><span class="cl"><span class="n">gene_lengths</span> <span class="o">&lt;-</span> <span class="nf">rowData</span><span class="p">(</span><span class="n">dds</span><span class="p">)</span><span class="o">$</span><span class="n">length</span>
+</span></span><span class="line"><span class="cl"><span class="n">rpk</span> <span class="o">&lt;-</span> <span class="nf">sweep</span><span class="p">(</span><span class="n">counts</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="n">gene_lengths</span><span class="o">/</span><span class="m">1000</span><span class="p">,</span> <span class="s">&#34;/&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">tpm</span> <span class="o">&lt;-</span> <span class="nf">sweep</span><span class="p">(</span><span class="n">rpk</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="nf">colSums</span><span class="p">(</span><span class="n">rpk</span><span class="p">)</span><span class="o">/</span><span class="m">1e6</span><span class="p">,</span> <span class="s">&#34;/&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><p><strong>Best for</strong>: Comparing expression between different genes <strong>Pros</strong>: Accounts for gene length <strong>Cons</strong>: Not recommended for differential expression</p>
+<hr>
+<h2 id="-normalization-in-practice">
+  🔬 Normalization in Practice
+  <a class="heading-link" href="#-normalization-in-practice">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="quick-deseq2-normalization">
+  Quick DESeq2 Normalization
+  <a class="heading-link" href="#quick-deseq2-normalization">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1"># This happens automatically in DESeq()</span>
+</span></span><span class="line"><span class="cl"><span class="n">dds</span> <span class="o">&lt;-</span> <span class="nf">estimateSizeFactors</span><span class="p">(</span><span class="n">dds</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># View size factors</span>
+</span></span><span class="line"><span class="cl"><span class="nf">sizeFactors</span><span class="p">(</span><span class="n">dds</span><span class="p">)</span>
+</span></span></code></pre></div><p><strong>Example Output</strong>:</p>
+<pre><code>Sample1  Sample2  Sample3  Sample4
+   1.23     0.87     1.05     0.91
+</code></pre>
+<h3 id="quality-check-your-normalization">
+  Quality Check Your Normalization
+  <a class="heading-link" href="#quality-check-your-normalization">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1"># Check size factor distribution</span>
+</span></span><span class="line"><span class="cl"><span class="nf">hist</span><span class="p">(</span><span class="nf">sizeFactors</span><span class="p">(</span><span class="n">dds</span><span class="p">),</span> <span class="n">breaks</span> <span class="o">=</span> <span class="m">20</span><span class="p">,</span> <span class="n">main</span> <span class="o">=</span> <span class="s">&#34;Size Factor Distribution&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Size factors should typically be between 0.5 and 2</span>
+</span></span><span class="line"><span class="cl"><span class="nf">range</span><span class="p">(</span><span class="nf">sizeFactors</span><span class="p">(</span><span class="n">dds</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Flag potential outliers</span>
+</span></span><span class="line"><span class="cl"><span class="n">outliers</span> <span class="o">&lt;-</span> <span class="nf">sizeFactors</span><span class="p">(</span><span class="n">dds</span><span class="p">)</span> <span class="o">&lt;</span> <span class="m">0.5</span> <span class="o">|</span> <span class="nf">sizeFactors</span><span class="p">(</span><span class="n">dds</span><span class="p">)</span> <span class="o">&gt;</span> <span class="m">2</span>
+</span></span><span class="line"><span class="cl"><span class="kr">if</span><span class="p">(</span><span class="nf">any</span><span class="p">(</span><span class="n">outliers</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">cat</span><span class="p">(</span><span class="s">&#34;Potential outlier samples:&#34;</span><span class="p">,</span> <span class="nf">names</span><span class="p">(</span><span class="nf">sizeFactors</span><span class="p">(</span><span class="n">dds</span><span class="p">))</span><span class="n">[outliers]</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h3 id="before-vs-after-normalization-comparison">
+  Before vs After Normalization Comparison
+  <a class="heading-link" href="#before-vs-after-normalization-comparison">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1"># Raw counts</span>
+</span></span><span class="line"><span class="cl"><span class="n">raw_counts</span> <span class="o">&lt;-</span> <span class="nf">counts</span><span class="p">(</span><span class="n">dds</span><span class="p">,</span> <span class="n">normalized</span> <span class="o">=</span> <span class="kc">FALSE</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Normalized counts  </span>
+</span></span><span class="line"><span class="cl"><span class="n">norm_counts</span> <span class="o">&lt;-</span> <span class="nf">counts</span><span class="p">(</span><span class="n">dds</span><span class="p">,</span> <span class="n">normalized</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Compare total counts per sample</span>
+</span></span><span class="line"><span class="cl"><span class="nf">par</span><span class="p">(</span><span class="n">mfrow</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">2</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="nf">barplot</span><span class="p">(</span><span class="nf">colSums</span><span class="p">(</span><span class="n">raw_counts</span><span class="p">),</span> <span class="n">main</span> <span class="o">=</span> <span class="s">&#34;Raw Counts&#34;</span><span class="p">,</span> <span class="n">las</span> <span class="o">=</span> <span class="m">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nf">barplot</span><span class="p">(</span><span class="nf">colSums</span><span class="p">(</span><span class="n">norm_counts</span><span class="p">),</span> <span class="n">main</span> <span class="o">=</span> <span class="s">&#34;Normalized Counts&#34;</span><span class="p">,</span> <span class="n">las</span> <span class="o">=</span> <span class="m">2</span><span class="p">)</span>
+</span></span></code></pre></div><hr>
+<h2 id="-real-example-the-impact-of-normalization">
+  📊 Real Example: The Impact of Normalization
+  <a class="heading-link" href="#-real-example-the-impact-of-normalization">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Let&rsquo;s see how normalization changes interpretation:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1"># Example gene counts before normalization</span>
+</span></span><span class="line"><span class="cl"><span class="n">gene_example</span> <span class="o">&lt;-</span> <span class="nf">data.frame</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Sample1</span> <span class="o">=</span> <span class="m">1000</span><span class="p">,</span>  <span class="c1"># 20M total reads</span>
+</span></span><span class="line"><span class="cl">  <span class="n">Sample2</span> <span class="o">=</span> <span class="m">250</span><span class="p">,</span>   <span class="c1"># 5M total reads  </span>
+</span></span><span class="line"><span class="cl">  <span class="n">Sample3</span> <span class="o">=</span> <span class="m">750</span>    <span class="c1"># 15M total reads</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Apparent fold changes (raw)</span>
+</span></span><span class="line"><span class="cl"><span class="n">gene_example</span><span class="o">$</span><span class="n">Sample1</span> <span class="o">/</span> <span class="n">gene_example</span><span class="o">$</span><span class="n">Sample2</span>  <span class="c1"># 4-fold difference!</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># After applying size factors</span>
+</span></span><span class="line"><span class="cl"><span class="n">size_factors</span> <span class="o">&lt;-</span> <span class="nf">c</span><span class="p">(</span><span class="m">1.6</span><span class="p">,</span> <span class="m">0.4</span><span class="p">,</span> <span class="m">1.2</span><span class="p">)</span>  <span class="c1"># Proportional to sequencing depth</span>
+</span></span><span class="line"><span class="cl"><span class="n">normalized_gene</span> <span class="o">&lt;-</span> <span class="n">gene_example</span> <span class="o">/</span> <span class="n">size_factors</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Real fold changes (normalized)</span>
+</span></span><span class="line"><span class="cl"><span class="n">normalized_gene</span><span class="o">$</span><span class="n">Sample1</span> <span class="o">/</span> <span class="n">normalized_gene</span><span class="o">$</span><span class="n">Sample2</span>  <span class="c1"># ~1-fold (no real difference!)</span>
+</span></span></code></pre></div><p><strong>The revelation</strong>: What looked like a 4-fold biological difference was actually just a technical artifact from different sequencing depths!</p>
+<hr>
+<h2 id="-normalization-red-flags">
+  ⚡ Normalization Red Flags
+  <a class="heading-link" href="#-normalization-red-flags">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="size-factor-outliers">
+  Size Factor Outliers
+  <a class="heading-link" href="#size-factor-outliers">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1"># Check for problematic samples</span>
+</span></span><span class="line"><span class="cl"><span class="n">extreme_factors</span> <span class="o">&lt;-</span> <span class="nf">sizeFactors</span><span class="p">(</span><span class="n">dds</span><span class="p">)</span> <span class="o">&lt;</span> <span class="m">0.3</span> <span class="o">|</span> <span class="nf">sizeFactors</span><span class="p">(</span><span class="n">dds</span><span class="p">)</span> <span class="o">&gt;</span> <span class="m">3</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">if</span><span class="p">(</span><span class="nf">any</span><span class="p">(</span><span class="n">extreme_factors</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">cat</span><span class="p">(</span><span class="s">&#34;Extreme size factors detected:&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">print</span><span class="p">(</span><span class="nf">sizeFactors</span><span class="p">(</span><span class="n">dds</span><span class="p">)</span><span class="n">[extreme_factors]</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">cat</span><span class="p">(</span><span class="s">&#34;Consider investigating these samples for technical issues&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h3 id="common-causes-of-size-factor-issues">
+  Common Causes of Size Factor Issues
+  <a class="heading-link" href="#common-causes-of-size-factor-issues">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li><strong>Very low size factors (&lt; 0.5)</strong>: Sample failed during library prep or sequencing</li>
+<li><strong>Very high size factors (&gt; 2)</strong>: Sample contamination or technical artifacts</li>
+<li><strong>Bimodal distribution</strong>: Two different processing batches or conditions</li>
+</ul>
+<hr>
+<h2 id="-why-proper-normalization-transforms-your-analysis">
+  🎉 Why Proper Normalization Transforms Your Analysis
+  <a class="heading-link" href="#-why-proper-normalization-transforms-your-analysis">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="before-normalization-issues">
+  Before Normalization Issues
+  <a class="heading-link" href="#before-normalization-issues">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>Samples cluster by sequencing depth, not biology</li>
+<li>PCA dominated by technical variation</li>
+<li>Differential expression tests find &ldquo;significant&rdquo; results that are just technical artifacts</li>
+<li>Pathway analysis uses incomparable expression values</li>
+</ul>
+<h3 id="after-proper-normalization-benefits">
+  After Proper Normalization Benefits
+  <a class="heading-link" href="#after-proper-normalization-benefits">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li><strong>Biological signal emerges</strong>: Samples cluster by experimental condition</li>
+<li><strong>Statistical tests work correctly</strong>: P-values reflect real biological differences</li>
+<li><strong>Downstream analyses are meaningful</strong>: Clustering, PCA, and pathway analysis reveal biological patterns</li>
+<li><strong>Results are reproducible</strong>: Independent experiments give consistent results</li>
+</ul>
+<hr>
+<h2 id="-integration-with-your-analysis-workflow">
+  🧬 Integration with Your Analysis Workflow
+  <a class="heading-link" href="#-integration-with-your-analysis-workflow">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Normalization happens seamlessly in the standard DESeq2 workflow:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1"># Normalization is built into the main function</span>
+</span></span><span class="line"><span class="cl"><span class="n">dds</span> <span class="o">&lt;-</span> <span class="nf">DESeq</span><span class="p">(</span><span class="n">dds</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># This single command performs:</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 1. Size factor estimation (normalization)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 2. Dispersion estimation  </span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 3. Statistical testing</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Access normalized counts for visualization</span>
+</span></span><span class="line"><span class="cl"><span class="n">normalized_counts</span> <span class="o">&lt;-</span> <span class="nf">counts</span><span class="p">(</span><span class="n">dds</span><span class="p">,</span> <span class="n">normalized</span> <span class="o">=</span> <span class="kc">TRUE</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Use for downstream analysis (PCA, clustering, etc.)</span>
+</span></span><span class="line"><span class="cl"><span class="n">vst_data</span> <span class="o">&lt;-</span> <span class="nf">vst</span><span class="p">(</span><span class="n">dds</span><span class="p">)</span>  <span class="c1"># Coming up in Post 6!</span>
+</span></span></code></pre></div><hr>
+<h2 id="-the-bottom-line">
+  🎯 The Bottom Line
+  <a class="heading-link" href="#-the-bottom-line">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Normalization is the unsung hero of RNA-seq analysis. It&rsquo;s not glamorous, but it&rsquo;s absolutely critical. The most sophisticated statistical methods and beautiful visualizations are meaningless if your data isn&rsquo;t properly normalized first.</p>
+<p>Remember: <strong>You&rsquo;re not just normalizing numbers&mdash;you&rsquo;re revealing biology.</strong> Proper normalization transforms your data from technical noise into biological signal, enabling every downstream analysis to focus on what really matters: the biological differences you&rsquo;re trying to understand.</p>
+<p>When your collaborator asks why Gene X showed up as differentially expressed, you can confidently say it&rsquo;s because of real biological changes, not because one sample happened to get sequenced more deeply than another.</p>
+<hr>
+<h2 id="-whats-next">
+  🧪 What&rsquo;s Next?
+  <a class="heading-link" href="#-whats-next">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p><strong>Post 6: Data Transformations (VST vs rlog)</strong> will explore how to prepare your normalized data for visualization and exploratory analysis. We&rsquo;ll discover why normalized counts still aren&rsquo;t ready for PCA and clustering, and how variance stabilizing transformations solve this final challenge.</p>
+<p>Get ready to unlock the full potential of your properly normalized data! 📈</p>
+<hr>
+<h2 id="-share-your-thoughts">
+  💬 Share Your Thoughts!
+  <a class="heading-link" href="#-share-your-thoughts">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Have you ever been surprised by how much normalization changed your results? Any tricky normalization scenarios you&rsquo;ve encountered? Drop a comment below! 👇</p>
+<p>#RNAseq #DESeq2 #Normalization #SizeFactors #Bioinformatics #GeneExpression #BulkRNAseq #ComputationalBiology #DataAnalysis #MedianOfRatios #RStats</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2025
+     Badran Elshenawy 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>

@@ -5,18 +5,66 @@
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-07-31T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/batch-effects/</loc>
-    <lastmod>2025-07-31T09:30:00+00:00</lastmod>
+    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/bioinformatics/</loc>
-    <lastmod>2025-07-31T09:30:00+00:00</lastmod>
+    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-07-31T09:30:00+00:00</lastmod>
+    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/composition-bias/</loc>
+    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/data-normalization/</loc>
+    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/deseq2/</loc>
+    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/gene-expression-analysis/</loc>
+    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/library-size/</loc>
+    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/normalization-methods/</loc>
+    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/median-of-ratios/</loc>
+    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/normalization/</loc>
+    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/r/</loc>
+    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rna-seq/</loc>
+    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/rna-seq/</loc>
+    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/size-factors/</loc>
+    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/statistics/</loc>
+    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tmm/</loc>
+    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tpm/</loc>
+    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/batch-effects/</loc>
     <lastmod>2025-07-31T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/design-formula/</loc>
@@ -31,37 +79,16 @@
     <loc>http://localhost:1313/tags/factorial-design/</loc>
     <lastmod>2025-07-31T09:30:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/gene-expression-analysis/</loc>
-    <lastmod>2025-07-31T09:30:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/experimental-design-count-matrix/</loc>
     <lastmod>2025-07-31T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/paired-samples/</loc>
     <lastmod>2025-07-31T09:30:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-07-31T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/r/</loc>
-    <lastmod>2025-07-31T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/rna-seq/</loc>
-    <lastmod>2025-07-31T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/rna-seq/</loc>
-    <lastmod>2025-07-31T09:30:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/sample-size/</loc>
     <lastmod>2025-07-31T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/statistical-modeling/</loc>
-    <lastmod>2025-07-31T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/statistics/</loc>
-    <lastmod>2025-07-31T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-07-31T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/bioconductor/</loc>
