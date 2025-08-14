@@ -5,24 +5,69 @@
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
+    <lastmod>2025-08-14T09:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/bioinformatics/</loc>
-    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
+    <lastmod>2025-08-14T09:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
+    <lastmod>2025-08-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/clustering/</loc>
+    <lastmod>2025-08-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/data-transformation/</loc>
+    <lastmod>2025-08-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/data-transformation/</loc>
+    <lastmod>2025-08-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/deseq2/</loc>
+    <lastmod>2025-08-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/gene-expression-analysis/</loc>
+    <lastmod>2025-08-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/heteroscedasticity/</loc>
+    <lastmod>2025-08-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/data-transformations/</loc>
+    <lastmod>2025-08-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pca/</loc>
+    <lastmod>2025-08-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-08-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/r/</loc>
+    <lastmod>2025-08-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rlog/</loc>
+    <lastmod>2025-08-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rna-seq/</loc>
+    <lastmod>2025-08-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/rna-seq/</loc>
+    <lastmod>2025-08-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/statistics/</loc>
+    <lastmod>2025-08-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-08-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/variance-stabilization/</loc>
+    <lastmod>2025-08-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/vst/</loc>
+    <lastmod>2025-08-14T09:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/composition-bias/</loc>
     <lastmod>2025-08-13T08:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/data-normalization/</loc>
-    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/deseq2/</loc>
-    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/gene-expression-analysis/</loc>
     <lastmod>2025-08-13T08:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/library-size/</loc>
@@ -37,25 +82,7 @@
     <loc>http://localhost:1313/tags/normalization/</loc>
     <lastmod>2025-08-13T08:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/r/</loc>
-    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/rna-seq/</loc>
-    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/rna-seq/</loc>
-    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/size-factors/</loc>
-    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/statistics/</loc>
-    <lastmod>2025-08-13T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-08-13T08:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/tmm/</loc>
