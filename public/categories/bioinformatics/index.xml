@@ -6,6 +6,7 @@
     <description>Recent content in Bioinformatics on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
+<<<<<<< HEAD
     <lastBuildDate>Wed, 20 Aug 2025 09:30:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -16,6 +17,11 @@
       <description>Navigate the choice between pheatmap, ComplexHeatmap, and tidyHeatmap with practical guidance. Discover which package fits your workflow, experience level, and visualization goals through real-world examples and decision frameworks.</description>
     </item>
     <item>
+=======
+    <lastBuildDate>Tue, 19 Aug 2025 09:30:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+>>>>>>> 67b1d630d0961a207d06ac4e7235745bf3c160b2
       <title>Mastering Bulk RNA-seq Analysis – Post 9: The Power of Heatmaps!</title>
       <link>http://localhost:1313/posts/heatmaps-power/</link>
       <pubDate>Tue, 19 Aug 2025 09:30:00 +0000</pubDate>
