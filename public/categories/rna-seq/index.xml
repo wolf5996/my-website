@@ -6,9 +6,15 @@
     <description>Recent content in RNA-Seq on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-<<<<<<< HEAD
-    <lastBuildDate>Wed, 20 Aug 2025 09:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Aug 2025 09:30:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/rna-seq/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering Bulk RNA-seq Analysis – Post 11: PCA as Your RNA-seq Diagnostic Hero!</title>
+      <link>http://localhost:1313/posts/pca-diagnostic-hero/</link>
+      <pubDate>Tue, 26 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pca-diagnostic-hero/</guid>
+      <description>Discover why PCA is your RNA-seq X-ray machine, revealing the true structure of your data. Learn to read PCA plots like a detective, troubleshoot common problems, and use this powerful diagnostic tool to build confidence in your analysis or catch problems early.</description>
+    </item>
     <item>
       <title>Mastering Bulk RNA-seq Analysis – Post 10: Heatmap Tools Battle!</title>
       <link>http://localhost:1313/posts/heatmap-tools-battle/</link>
@@ -17,11 +23,6 @@
       <description>Navigate the choice between pheatmap, ComplexHeatmap, and tidyHeatmap with practical guidance. Discover which package fits your workflow, experience level, and visualization goals through real-world examples and decision frameworks.</description>
     </item>
     <item>
-=======
-    <lastBuildDate>Tue, 19 Aug 2025 09:30:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/rna-seq/index.xml" rel="self" type="application/rss+xml" />
-    <item>
->>>>>>> 67b1d630d0961a207d06ac4e7235745bf3c160b2
       <title>Mastering Bulk RNA-seq Analysis – Post 9: The Power of Heatmaps!</title>
       <link>http://localhost:1313/posts/heatmaps-power/</link>
       <pubDate>Tue, 19 Aug 2025 09:30:00 +0000</pubDate>

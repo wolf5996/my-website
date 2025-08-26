@@ -6,45 +6,90 @@
     <description>Recent content in Tags on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-<<<<<<< HEAD
-    <lastBuildDate>Wed, 20 Aug 2025 09:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Aug 2025 09:30:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bioconductor</title>
-      <link>http://localhost:1313/tags/bioconductor/</link>
-      <pubDate>Wed, 20 Aug 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/bioconductor/</guid>
-=======
-    <lastBuildDate>Tue, 19 Aug 2025 09:30:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Clustering</title>
-      <link>http://localhost:1313/tags/clustering/</link>
-      <pubDate>Tue, 19 Aug 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/clustering/</guid>
->>>>>>> 67b1d630d0961a207d06ac4e7235745bf3c160b2
-      <description></description>
-    </item>
-    <item>
-      <title>ComplexHeatmap</title>
-      <link>http://localhost:1313/tags/complexheatmap/</link>
-<<<<<<< HEAD
-      <pubDate>Wed, 20 Aug 2025 09:30:00 +0000</pubDate>
-=======
-      <pubDate>Tue, 19 Aug 2025 09:30:00 +0000</pubDate>
->>>>>>> 67b1d630d0961a207d06ac4e7235745bf3c160b2
-      <guid>http://localhost:1313/tags/complexheatmap/</guid>
+      <title>Batch Effects</title>
+      <link>http://localhost:1313/tags/batch-effects/</link>
+      <pubDate>Tue, 26 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/batch-effects/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Visualization</title>
       <link>http://localhost:1313/tags/data-visualization/</link>
-<<<<<<< HEAD
-      <pubDate>Wed, 20 Aug 2025 09:30:00 +0000</pubDate>
-=======
-      <pubDate>Tue, 19 Aug 2025 09:30:00 +0000</pubDate>
->>>>>>> 67b1d630d0961a207d06ac4e7235745bf3c160b2
+      <pubDate>Tue, 26 Aug 2025 09:30:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/data-visualization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DESeq2</title>
+      <link>http://localhost:1313/tags/deseq2/</link>
+      <pubDate>Tue, 26 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/deseq2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diagnostic Plots</title>
+      <link>http://localhost:1313/tags/diagnostic-plots/</link>
+      <pubDate>Tue, 26 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/diagnostic-plots/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PCA</title>
+      <link>http://localhost:1313/tags/pca/</link>
+      <pubDate>Tue, 26 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/pca/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Principal Component Analysis</title>
+      <link>http://localhost:1313/tags/principal-component-analysis/</link>
+      <pubDate>Tue, 26 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/principal-component-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quality Control</title>
+      <link>http://localhost:1313/tags/quality-control/</link>
+      <pubDate>Tue, 26 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/quality-control/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rlog</title>
+      <link>http://localhost:1313/tags/rlog/</link>
+      <pubDate>Tue, 26 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rlog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RNA-Seq</title>
+      <link>http://localhost:1313/tags/rna-seq/</link>
+      <pubDate>Tue, 26 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rna-seq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VST</title>
+      <link>http://localhost:1313/tags/vst/</link>
+      <pubDate>Tue, 26 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/vst/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bioconductor</title>
+      <link>http://localhost:1313/tags/bioconductor/</link>
+      <pubDate>Wed, 20 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bioconductor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ComplexHeatmap</title>
+      <link>http://localhost:1313/tags/complexheatmap/</link>
+      <pubDate>Wed, 20 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/complexheatmap/</guid>
       <description></description>
     </item>
     <item>
@@ -83,13 +128,6 @@
       <description></description>
     </item>
     <item>
-      <title>RNA-Seq</title>
-      <link>http://localhost:1313/tags/rna-seq/</link>
-      <pubDate>Wed, 20 Aug 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/rna-seq/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>TidyHeatmap</title>
       <link>http://localhost:1313/tags/tidyheatmap/</link>
       <pubDate>Wed, 20 Aug 2025 09:30:00 +0000</pubDate>
@@ -104,30 +142,6 @@
       <description></description>
     </item>
     <item>
-      <title>DESeq2</title>
-      <link>http://localhost:1313/tags/deseq2/</link>
-      <pubDate>Tue, 19 Aug 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/deseq2/</guid>
-      <description></description>
-    </item>
-    <item>
-<<<<<<< HEAD
-=======
-      <title>Gene Expression</title>
-      <link>http://localhost:1313/tags/gene-expression/</link>
-      <pubDate>Tue, 19 Aug 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/gene-expression/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Heatmaps</title>
-      <link>http://localhost:1313/tags/heatmaps/</link>
-      <pubDate>Tue, 19 Aug 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/heatmaps/</guid>
-      <description></description>
-    </item>
-    <item>
->>>>>>> 67b1d630d0961a207d06ac4e7235745bf3c160b2
       <title>Pattern Recognition</title>
       <link>http://localhost:1313/tags/pattern-recognition/</link>
       <pubDate>Tue, 19 Aug 2025 09:30:00 +0000</pubDate>
@@ -135,33 +149,6 @@
       <description></description>
     </item>
     <item>
-<<<<<<< HEAD
-=======
-      <title>Pheatmap</title>
-      <link>http://localhost:1313/tags/pheatmap/</link>
-      <pubDate>Tue, 19 Aug 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/pheatmap/</guid>
-      <description></description>
-    </item>
-    <item>
->>>>>>> 67b1d630d0961a207d06ac4e7235745bf3c160b2
-      <title>Quality Control</title>
-      <link>http://localhost:1313/tags/quality-control/</link>
-      <pubDate>Tue, 19 Aug 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/quality-control/</guid>
-      <description></description>
-    </item>
-    <item>
-<<<<<<< HEAD
-=======
-      <title>RNA-Seq</title>
-      <link>http://localhost:1313/tags/rna-seq/</link>
-      <pubDate>Tue, 19 Aug 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/rna-seq/</guid>
-      <description></description>
-    </item>
-    <item>
->>>>>>> 67b1d630d0961a207d06ac4e7235745bf3c160b2
       <title>Differential Expression</title>
       <link>http://localhost:1313/tags/differential-expression/</link>
       <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
@@ -260,31 +247,10 @@
       <description></description>
     </item>
     <item>
-      <title>PCA</title>
-      <link>http://localhost:1313/tags/pca/</link>
-      <pubDate>Thu, 14 Aug 2025 09:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/pca/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rlog</title>
-      <link>http://localhost:1313/tags/rlog/</link>
-      <pubDate>Thu, 14 Aug 2025 09:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/rlog/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Variance Stabilization</title>
       <link>http://localhost:1313/tags/variance-stabilization/</link>
       <pubDate>Thu, 14 Aug 2025 09:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/variance-stabilization/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>VST</title>
-      <link>http://localhost:1313/tags/vst/</link>
-      <pubDate>Thu, 14 Aug 2025 09:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/vst/</guid>
       <description></description>
     </item>
     <item>
@@ -334,13 +300,6 @@
       <link>http://localhost:1313/tags/tpm/</link>
       <pubDate>Wed, 13 Aug 2025 08:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/tpm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Batch Effects</title>
-      <link>http://localhost:1313/tags/batch-effects/</link>
-      <pubDate>Thu, 31 Jul 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/batch-effects/</guid>
       <description></description>
     </item>
     <item>

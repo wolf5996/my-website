@@ -5,25 +5,69 @@
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
-<<<<<<< HEAD
-    <lastmod>2025-08-20T09:30:00+00:00</lastmod>
+    <lastmod>2025-08-26T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/batch-effects/</loc>
+    <lastmod>2025-08-26T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/bioinformatics/</loc>
+    <lastmod>2025-08-26T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-08-26T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/data-visualization/</loc>
+    <lastmod>2025-08-26T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/data-visualization/</loc>
+    <lastmod>2025-08-26T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/deseq2/</loc>
+    <lastmod>2025-08-26T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/diagnostic-plots/</loc>
+    <lastmod>2025-08-26T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/pca-diagnostic-hero/</loc>
+    <lastmod>2025-08-26T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pca/</loc>
+    <lastmod>2025-08-26T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-08-26T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/principal-component-analysis/</loc>
+    <lastmod>2025-08-26T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/quality-control/</loc>
+    <lastmod>2025-08-26T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/quality-control/</loc>
+    <lastmod>2025-08-26T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/r/</loc>
+    <lastmod>2025-08-26T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rlog/</loc>
+    <lastmod>2025-08-26T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rna-seq/</loc>
+    <lastmod>2025-08-26T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/rna-seq/</loc>
+    <lastmod>2025-08-26T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-08-26T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/vst/</loc>
+    <lastmod>2025-08-26T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/bioconductor/</loc>
     <lastmod>2025-08-20T09:30:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/bioinformatics/</loc>
-    <lastmod>2025-08-20T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-08-20T09:30:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/complexheatmap/</loc>
-    <lastmod>2025-08-20T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/data-visualization/</loc>
-    <lastmod>2025-08-20T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/data-visualization/</loc>
     <lastmod>2025-08-20T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/gene-expression/</loc>
@@ -41,25 +85,10 @@
     <loc>http://localhost:1313/tags/pheatmap/</loc>
     <lastmod>2025-08-20T09:30:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-08-20T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/r/</loc>
-    <lastmod>2025-08-20T09:30:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/r-packages/</loc>
     <lastmod>2025-08-20T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/r-packages/</loc>
-    <lastmod>2025-08-20T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/rna-seq/</loc>
-    <lastmod>2025-08-20T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/rna-seq/</loc>
-    <lastmod>2025-08-20T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-08-20T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/tidyheatmap/</loc>
@@ -69,74 +98,13 @@
     <lastmod>2025-08-19T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/clustering/</loc>
-=======
     <lastmod>2025-08-19T09:30:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/bioinformatics/</loc>
-    <lastmod>2025-08-19T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-08-19T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/clustering/</loc>
-    <lastmod>2025-08-19T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/clustering/</loc>
-    <lastmod>2025-08-19T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/complexheatmap/</loc>
-    <lastmod>2025-08-19T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/data-visualization/</loc>
-    <lastmod>2025-08-19T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/data-visualization/</loc>
->>>>>>> 67b1d630d0961a207d06ac4e7235745bf3c160b2
-    <lastmod>2025-08-19T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/deseq2/</loc>
-    <lastmod>2025-08-19T09:30:00+00:00</lastmod>
-  </url><url>
-<<<<<<< HEAD
-=======
-    <loc>http://localhost:1313/tags/gene-expression/</loc>
-    <lastmod>2025-08-19T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/heatmaps/</loc>
-    <lastmod>2025-08-19T09:30:00+00:00</lastmod>
-  </url><url>
->>>>>>> 67b1d630d0961a207d06ac4e7235745bf3c160b2
     <loc>http://localhost:1313/posts/heatmaps-power/</loc>
     <lastmod>2025-08-19T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/pattern-recognition/</loc>
     <lastmod>2025-08-19T09:30:00+00:00</lastmod>
-  </url><url>
-<<<<<<< HEAD
-    <loc>http://localhost:1313/tags/quality-control/</loc>
-    <lastmod>2025-08-19T09:30:00+00:00</lastmod>
-=======
-    <loc>http://localhost:1313/tags/pheatmap/</loc>
-    <lastmod>2025-08-19T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-08-19T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/quality-control/</loc>
-    <lastmod>2025-08-19T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/r/</loc>
-    <lastmod>2025-08-19T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/rna-seq/</loc>
-    <lastmod>2025-08-19T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/rna-seq/</loc>
-    <lastmod>2025-08-19T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-08-19T09:30:00+00:00</lastmod>
->>>>>>> 67b1d630d0961a207d06ac4e7235745bf3c160b2
   </url><url>
     <loc>http://localhost:1313/tags/differential-expression/</loc>
     <lastmod>2025-08-18T00:00:00+00:00</lastmod>
@@ -201,16 +169,7 @@
     <loc>http://localhost:1313/posts/data-transformations/</loc>
     <lastmod>2025-08-14T09:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/pca/</loc>
-    <lastmod>2025-08-14T09:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/rlog/</loc>
-    <lastmod>2025-08-14T09:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/variance-stabilization/</loc>
-    <lastmod>2025-08-14T09:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/vst/</loc>
     <lastmod>2025-08-14T09:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/composition-bias/</loc>
@@ -239,9 +198,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/tpm/</loc>
     <lastmod>2025-08-13T08:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/batch-effects/</loc>
-    <lastmod>2025-07-31T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/design-formula/</loc>
     <lastmod>2025-07-31T09:30:00+00:00</lastmod>
@@ -373,9 +329,6 @@
     <lastmod>2025-05-22T11:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ngs/</loc>
-    <lastmod>2025-05-22T11:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/quality-control/</loc>
     <lastmod>2025-05-22T11:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/sequencing-data/</loc>
