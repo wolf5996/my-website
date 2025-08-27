@@ -59,7 +59,7 @@ commit = "https://github.com/wolf5996/hugo-coder/tree/"
   name = "Oxford"
   icon = "fa-solid fa-university fa-2x"
   weight = 3
-  url = "https://www.ndmrb.ox.ac.uk/team/badran-elshenawy"
+  url = "https://www.oncology.ox.ac.uk/team/badran-elshenawy"
 
 [[params.social]]
   name = "Twitter"
