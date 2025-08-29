@@ -6,8 +6,78 @@
     <description>Recent content in Tags on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 26 Aug 2025 09:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Aug 2025 09:30:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bioinformatics</title>
+      <link>http://localhost:1313/tags/bioinformatics/</link>
+      <pubDate>Fri, 29 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bioinformatics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DESeq2</title>
+      <link>http://localhost:1313/tags/deseq2/</link>
+      <pubDate>Fri, 29 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/deseq2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diagnostic Plots</title>
+      <link>http://localhost:1313/tags/diagnostic-plots/</link>
+      <pubDate>Fri, 29 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/diagnostic-plots/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Distance Heatmap</title>
+      <link>http://localhost:1313/tags/distance-heatmap/</link>
+      <pubDate>Fri, 29 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/distance-heatmap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pheatmap</title>
+      <link>http://localhost:1313/tags/pheatmap/</link>
+      <pubDate>Fri, 29 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/pheatmap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quality Control</title>
+      <link>http://localhost:1313/tags/quality-control/</link>
+      <pubDate>Fri, 29 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/quality-control/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RNA-Seq</title>
+      <link>http://localhost:1313/tags/rna-seq/</link>
+      <pubDate>Fri, 29 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rna-seq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sample Correlation</title>
+      <link>http://localhost:1313/tags/sample-correlation/</link>
+      <pubDate>Fri, 29 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/sample-correlation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sample Quality</title>
+      <link>http://localhost:1313/tags/sample-quality/</link>
+      <pubDate>Fri, 29 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/sample-quality/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VST</title>
+      <link>http://localhost:1313/tags/vst/</link>
+      <pubDate>Fri, 29 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/vst/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Batch Effects</title>
       <link>http://localhost:1313/tags/batch-effects/</link>
@@ -20,20 +90,6 @@
       <link>http://localhost:1313/tags/data-visualization/</link>
       <pubDate>Tue, 26 Aug 2025 09:30:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/data-visualization/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DESeq2</title>
-      <link>http://localhost:1313/tags/deseq2/</link>
-      <pubDate>Tue, 26 Aug 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/deseq2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Diagnostic Plots</title>
-      <link>http://localhost:1313/tags/diagnostic-plots/</link>
-      <pubDate>Tue, 26 Aug 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/diagnostic-plots/</guid>
       <description></description>
     </item>
     <item>
@@ -51,31 +107,10 @@
       <description></description>
     </item>
     <item>
-      <title>Quality Control</title>
-      <link>http://localhost:1313/tags/quality-control/</link>
-      <pubDate>Tue, 26 Aug 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/quality-control/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Rlog</title>
       <link>http://localhost:1313/tags/rlog/</link>
       <pubDate>Tue, 26 Aug 2025 09:30:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/rlog/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>RNA-Seq</title>
-      <link>http://localhost:1313/tags/rna-seq/</link>
-      <pubDate>Tue, 26 Aug 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/rna-seq/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>VST</title>
-      <link>http://localhost:1313/tags/vst/</link>
-      <pubDate>Tue, 26 Aug 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/vst/</guid>
       <description></description>
     </item>
     <item>
@@ -111,13 +146,6 @@
       <link>http://localhost:1313/tags/package-comparison/</link>
       <pubDate>Wed, 20 Aug 2025 09:30:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/package-comparison/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pheatmap</title>
-      <link>http://localhost:1313/tags/pheatmap/</link>
-      <pubDate>Wed, 20 Aug 2025 09:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/pheatmap/</guid>
       <description></description>
     </item>
     <item>
@@ -1280,13 +1308,6 @@
       <link>http://localhost:1313/tags/git/</link>
       <pubDate>Mon, 10 Feb 2025 17:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/git/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bioinformatics</title>
-      <link>http://localhost:1313/tags/bioinformatics/</link>
-      <pubDate>Wed, 05 Feb 2025 12:30:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/bioinformatics/</guid>
       <description></description>
     </item>
     <item>

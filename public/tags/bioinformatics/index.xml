@@ -6,8 +6,15 @@
     <description>Recent content in Bioinformatics on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Feb 2025 12:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Aug 2025 09:30:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/bioinformatics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering Bulk RNA-seq Analysis – Post 12: QC Heatmaps for Sample Quality!</title>
+      <link>http://localhost:1313/posts/qc-heatmaps-sample-quality/</link>
+      <pubDate>Fri, 29 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/qc-heatmaps-sample-quality/</guid>
+      <description>Dive deep into sample quality control with correlation and distance heatmaps that reveal precise sample relationships. Learn to spot sample mix-ups, batch effects, and technical problems before they compromise your RNA-seq analysis.</description>
+    </item>
     <item>
       <title>Version Control Series – Capstone: Mastering Git for Reproducible Research</title>
       <link>http://localhost:1313/posts/git-capstone-mastering/</link>

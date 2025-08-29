@@ -6,8 +6,15 @@
     <description>Recent content in Diagnostic Plots on Badran Elshenawy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 26 Aug 2025 09:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Aug 2025 09:30:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/diagnostic-plots/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering Bulk RNA-seq Analysis – Post 12: QC Heatmaps for Sample Quality!</title>
+      <link>http://localhost:1313/posts/qc-heatmaps-sample-quality/</link>
+      <pubDate>Fri, 29 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/qc-heatmaps-sample-quality/</guid>
+      <description>Dive deep into sample quality control with correlation and distance heatmaps that reveal precise sample relationships. Learn to spot sample mix-ups, batch effects, and technical problems before they compromise your RNA-seq analysis.</description>
+    </item>
     <item>
       <title>Mastering Bulk RNA-seq Analysis – Post 11: PCA as Your RNA-seq Diagnostic Hero!</title>
       <link>http://localhost:1313/posts/pca-diagnostic-hero/</link>
