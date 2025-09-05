@@ -5,21 +5,69 @@
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-08-29T09:30:00+00:00</lastmod>
+    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/bioinformatics/</loc>
+    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/clusterprofiler/</loc>
+    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/deseq2/</loc>
+    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/functional-analysis/</loc>
+    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/functional-analysis/</loc>
+    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/gene-ontology/</loc>
+    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/gene-ontology/</loc>
+    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/go-enrichment/</loc>
+    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/go-enrichment-gene-lists-biology/</loc>
+    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ora/</loc>
+    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/over-representation-analysis/</loc>
+    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pathway-analysis/</loc>
+    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/r/</loc>
+    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rna-seq/</loc>
+    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/rna-seq/</loc>
+    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/systems-biology/</loc>
+    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/bioinformatics/</loc>
     <lastmod>2025-08-29T09:30:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/bioinformatics/</loc>
-    <lastmod>2025-08-29T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-08-29T09:30:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/data-visualization/</loc>
-    <lastmod>2025-08-29T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/deseq2/</loc>
     <lastmod>2025-08-29T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/diagnostic-plots/</loc>
@@ -34,31 +82,16 @@
     <loc>http://localhost:1313/tags/pheatmap/</loc>
     <lastmod>2025-08-29T09:30:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-08-29T09:30:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/quality-control/</loc>
     <lastmod>2025-08-29T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/quality-control/</loc>
     <lastmod>2025-08-29T09:30:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/r/</loc>
-    <lastmod>2025-08-29T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/rna-seq/</loc>
-    <lastmod>2025-08-29T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/rna-seq/</loc>
-    <lastmod>2025-08-29T09:30:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/sample-correlation/</loc>
     <lastmod>2025-08-29T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/sample-quality/</loc>
-    <lastmod>2025-08-29T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-08-29T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/vst/</loc>
