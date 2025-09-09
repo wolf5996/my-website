@@ -5,22 +5,64 @@
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+    <lastmod>2025-09-09T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/bioinformatics/</loc>
-    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+    <lastmod>2025-09-09T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+    <lastmod>2025-09-09T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/clusterprofiler/</loc>
-    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+    <lastmod>2025-09-09T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/deseq2/</loc>
-    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+    <lastmod>2025-09-09T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/drug-discovery/</loc>
+    <lastmod>2025-09-09T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/enrichment-analysis/</loc>
+    <lastmod>2025-09-09T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/functional-analysis/</loc>
-    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
+    <lastmod>2025-09-09T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/kegg/</loc>
+    <lastmod>2025-09-09T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/kegg-metabolic-maps-pathway-analysis/</loc>
+    <lastmod>2025-09-09T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/metabolic-pathways/</loc>
+    <lastmod>2025-09-09T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pathview/</loc>
+    <lastmod>2025-09-09T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pathway-analysis/</loc>
+    <lastmod>2025-09-09T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/pathway-analysis/</loc>
+    <lastmod>2025-09-09T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-09-09T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/r/</loc>
+    <lastmod>2025-09-09T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/rna-seq/</loc>
+    <lastmod>2025-09-09T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/systems-biology/</loc>
+    <lastmod>2025-09-09T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/systems-biology/</loc>
+    <lastmod>2025-09-09T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-09-09T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/functional-analysis/</loc>
     <lastmod>2025-09-05T09:30:00+00:00</lastmod>
@@ -43,25 +85,7 @@
     <loc>http://localhost:1313/tags/over-representation-analysis/</loc>
     <lastmod>2025-09-05T09:30:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/pathway-analysis/</loc>
-    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/r/</loc>
-    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/rna-seq/</loc>
-    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/rna-seq/</loc>
-    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/systems-biology/</loc>
-    <lastmod>2025-09-05T09:30:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-09-05T09:30:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/bioinformatics/</loc>
