@@ -207,8 +207,57 @@
     <item>
       <title>Bioconductor</title>
       <link>http://localhost:1313/tags/bioconductor/</link>
-      <pubDate>Wed, 20 Aug 2025 09:30:00 +0000</pubDate>
+      <pubDate>Mon, 25 Aug 2025 09:30:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/bioconductor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Clinical Research</title>
+      <link>http://localhost:1313/tags/clinical-research/</link>
+      <pubDate>Mon, 25 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/clinical-research/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Disease Research</title>
+      <link>http://localhost:1313/tags/disease-research/</link>
+      <pubDate>Mon, 25 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/disease-research/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Drug Development</title>
+      <link>http://localhost:1313/tags/drug-development/</link>
+      <pubDate>Mon, 25 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/drug-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Human Pathways</title>
+      <link>http://localhost:1313/tags/human-pathways/</link>
+      <pubDate>Mon, 25 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/human-pathways/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Precision Medicine</title>
+      <link>http://localhost:1313/tags/precision-medicine/</link>
+      <pubDate>Mon, 25 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/precision-medicine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reactome</title>
+      <link>http://localhost:1313/tags/reactome/</link>
+      <pubDate>Mon, 25 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/reactome/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ReactomePA</title>
+      <link>http://localhost:1313/tags/reactomepa/</link>
+      <pubDate>Mon, 25 Aug 2025 09:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/reactomepa/</guid>
       <description></description>
     </item>
     <item>
