@@ -396,6 +396,3 @@ Ready to move beyond arbitrary cutoffs and analyze your entire gene expression p
 Have you used Reactome for clinical research? What pathway discoveries have influenced your therapeutic strategies? Share your Reactome success stories below!
 
 #RNAseq #Reactome #PathwayAnalysis #ReactomePA #EnrichmentAnalysis #HumanPathways #DiseaseResearch #PrecisionMedicine #DESeq2 #Bioinformatics #RStats
-
-![alt text](/images/reactome_cnet_up_post_image.png)
-![alt text](/images/reactome_cnet_down_post_image.png)

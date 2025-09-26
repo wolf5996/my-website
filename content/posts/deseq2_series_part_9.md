@@ -180,5 +180,3 @@ Ready to connect your expression patterns to biological knowledge? Let's dive in
 What's the most surprising biological pattern you've discovered in a heatmap? Have you found gene modules that completely changed your understanding of your system? Drop a comment below! 👇
 
 #RNAseq #Heatmaps #DataVisualization #GeneExpression #BiologicalPatterns #Hypoxia #CellularResponse #Bioinformatics #DataInterpretation
-
-![heatmap_image](/images/heatmap_post_image.png)

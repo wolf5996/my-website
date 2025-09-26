@@ -285,7 +285,3 @@ Ready to customize GSEA for your unique research needs?
 Have you discovered coordinated pathway changes with GSEA that ORA missed? What subtle biological patterns has GSEA revealed in your data?
 
 #RNAseq #GSEA #PathwayAnalysis #ClusterProfiler #EnrichmentAnalysis #SystemsBiology #DESeq2 #GO #KEGG #Reactome #Bioinformatics #RStats
-
-![alt text](/images/gsea_go_bp_post_image.png) 
-![alt text](/images/gsea_kegg_post_image.png) 
-![alt text](/images/gsea_reactome_post_image.png)

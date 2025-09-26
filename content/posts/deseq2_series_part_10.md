@@ -374,5 +374,3 @@ Ready to become a quality control detective? Let's learn to spot the red flags t
 Which heatmap package have you found most useful for your work? Any tips for newcomers trying to choose between these options? Drop a comment below! 👇
 
 #RNAseq #Heatmaps #pheatmap #ComplexHeatmap #tidyHeatmap #RPackages #DataVisualization #Bioinformatics #Tidyverse #GeneExpression #RStats
-
-![alt text](/images/heatmap_02_post_image.png)

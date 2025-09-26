@@ -347,5 +347,3 @@ Ready to dive deeper into metabolic and signaling pathways? Let's connect the do
 What's the most surprising biological process you've discovered through GO enrichment? Any horror stories about misinterpreting results? Drop your experiences below! 👇
 
 #RNAseq #GeneOntology #ClusterProfiler #EnrichmentAnalysis #ORA #FunctionalAnnotation #DESeq2 #Bioinformatics #RStats #SystemsBiology
-
-![ORA GO BP](/images/ora_gobp_post_image.png)

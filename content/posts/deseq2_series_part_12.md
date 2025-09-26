@@ -300,6 +300,3 @@ Don't skip this step. Quality control heatmaps are your safety net against sampl
 What sample quality issues have QC heatmaps helped you catch? Any tips for interpreting tricky correlation patterns?
 
 #RNAseq #QualityControl #DESeq2 #SampleCorrelation #DistanceHeatmap #DataVisualization #Bioinformatics #VST #DiagnosticPlots #GeneExpression #RStats
-
-![alt text](/images/qc_sample_correlation_post.png)
-![alt text](/images/qc_sample_distance_post.png)

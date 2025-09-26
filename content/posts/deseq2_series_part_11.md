@@ -170,5 +170,3 @@ Use PCA as your quality control checkpoint. A 5-minute PCA check can save you we
 What problems has PCA helped you catch in your RNA-seq data? Drop a comment below!
 
 #RNAseq #PCA #QualityControl #DataVisualization #Bioinformatics #DESeq2 #DiagnosticPlots
-
-![PCA Plots](/images/qc_pca_plots_post.jpg)

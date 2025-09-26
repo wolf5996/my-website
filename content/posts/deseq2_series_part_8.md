@@ -306,5 +306,3 @@ Ready to dive deeper into the patterns of gene expression? Let's explore the wor
 What's the most surprising gene that showed up in your volcano plot? Have you discovered any volcano plot design tricks that make interpretation clearer? Drop a comment below! 👇
 
 #RNAseq #DESeq2 #VolcanoPlot #DataVisualization #Bioinformatics #GeneExpression #DifferentialExpression #ggplot2 #DataViz #Genomics #RStats #Publication
-
-![Volcano Plot Example](/images/volcano_plot_example.png)

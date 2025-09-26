@@ -395,5 +395,3 @@ Ready to explore the gold standard of human pathway curation?
 What's the most interesting pathway connection you've discovered using KEGG? Any surprising pathway crosstalk that changed your research direction? Drop your pathway stories below!
 
 #RNAseq #KEGG #PathwayAnalysis #ClusterProfiler #EnrichmentAnalysis #MetabolicPathways #SystemsBiology #DESeq2 #Bioinformatics #RStats
-
-![alt text](/images/hsa04610_visualization_kegg_pathview_post.png)
